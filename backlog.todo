@@ -1,0 +1,20 @@
+# Requirements:
+✔ You are free to choose any framework @done(20-03-22 23:30)
+☐ Build a web application that uses the Foursquare API (do not use any external API wrapper libraries)
+☐ Get the user location and show a list of available venues
+☐ Decide which venues and details are relevant to the user
+☐ You have freedom to develop the UI/UX of the application
+☐ Submit the code and share the link to the repository with us (e.g., GitHub, BitBucket,...).
+
+# Optional Requirements:
+☐ give the user the ability to adjust some search parameters (e.g. location, radius, venue types)
+
+# Desirable Requirements:
+☐ Tests
+☐ CI
+
+# Project settings:
+✔ Add linter @done(20-03-12 15:04)
+✔ Add prettier @done(20-03-12 15:04)
+☐ Demo online (Deploy on heroku/netlify)
+
