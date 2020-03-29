@@ -1,15 +1,13 @@
 import React from 'react';
 import Routes from '../routes';
-import { Header } from './Header';
+import { ThemeProvider } from 'styled-components';
+import { theme } from '../assets/styles/theme';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <main>
-        <Routes />
-      </main>
-    </div>
+    <ThemeProvider className="App" theme={theme}>
+      <Routes />
+    </ThemeProvider>
   );
 }
 
