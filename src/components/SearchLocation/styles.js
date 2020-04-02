@@ -19,7 +19,7 @@ const SearchBox = styled.div`
 
   .suggestions {
     position: absolute;
-    z-index: 100;
+    z-index: 900;
     background: #fff;
     width: 100%;
     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.05);
@@ -34,7 +34,6 @@ const SearchBox = styled.div`
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     padding: 8px;
-
     font-size: 16px;
     color: darkgray;
   }

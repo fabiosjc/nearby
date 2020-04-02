@@ -1,1724 +1,1726 @@
 {
-  "meta": {
-    "code": 200,
-    "requestId": "5e7d67a314a126001b20a351"
-  },
-  "response": {
-    "suggestedFilters": {
-      "header": "Tap to show:",
-      "filters": [
-        {
-          "name": "Open now",
-          "key": "openNow"
-        }
-      ]
+  "data": {
+    "meta": {
+      "code": 200,
+      "requestId": "5e7d67a314a126001b20a351"
     },
-    "suggestedRadius": 2217,
-    "headerLocation": "São José dos Campos",
-    "headerFullLocation": "São José dos Campos",
-    "headerLocationGranularity": "city",
-    "totalResults": 101,
-    "suggestedBounds": {
-      "ne": {
-        "lat": -23.222828203485992,
-        "lng": -45.89536152579141
-      },
-      "sw": {
-        "lat": -23.252199470449536,
-        "lng": -45.92497940375616
-      }
-    },
-    "groups": [
-      {
-        "type": "Recommended Places",
-        "name": "recommended",
-        "items": [
+    "response": {
+      "suggestedFilters": {
+        "header": "Tap to show:",
+        "filters": [
           {
-            "reasons": {
-              "count": 0,
-              "items": [
-                {
-                  "summary": "This spot is popular",
-                  "type": "general",
-                  "reasonName": "globalInteractionReason"
-                }
-              ]
-            },
-            "venue": {
-              "id": "4e81a3decc21d3d2726ea8fe",
-              "name": "Academia Agua Viva",
-              "location": {
-                "address": "Rua Olinda",
-                "lat": -23.243558622780405,
-                "lng": -45.90826183776025,
-                "labeledLatLngs": [
-                  {
-                    "label": "display",
-                    "lat": -23.243558622780405,
-                    "lng": -45.90826183776025
-                  }
-                ],
-                "distance": 506,
-                "cc": "BR",
-                "city": "São José dos Campos",
-                "state": "SP",
-                "country": "Brasil",
-                "formattedAddress": [
-                  "Rua Olinda",
-                  "São José dos Campos, SP",
-                  "Brasil"
-                ]
-              },
-              "categories": [
-                {
-                  "id": "4bf58dd8d48988d176941735",
-                  "name": "Gym",
-                  "pluralName": "Gyms",
-                  "shortName": "Gym",
-                  "icon": {
-                    "prefix": "https://ss3.4sqi.net/img/categories_v2/building/gym_",
-                    "suffix": ".png"
-                  },
-                  "primary": true
-                }
-              ],
-              "photos": {
-                "count": 0,
-                "groups": []
-              }
-            },
-            "referralId": "e-0-4e81a3decc21d3d2726ea8fe-0"
-          },
-          {
-            "reasons": {
-              "count": 0,
-              "items": [
-                {
-                  "summary": "This spot is popular",
-                  "type": "general",
-                  "reasonName": "globalInteractionReason"
-                }
-              ]
-            },
-            "venue": {
-              "id": "514c88bde4b066f6ca030038",
-              "name": "Subway",
-              "location": {
-                "address": "Av. Doutor João Batista Soares de Queiroz Júnior, 2411",
-                "crossStreet": "Estrada Velha RJ/SP",
-                "lat": -23.24215040952974,
-                "lng": -45.90595902152501,
-                "labeledLatLngs": [
-                  {
-                    "label": "display",
-                    "lat": -23.24215040952974,
-                    "lng": -45.90595902152501
-                  }
-                ],
-                "distance": 664,
-                "postalCode": "12235-680",
-                "cc": "BR",
-                "city": "São José dos Campos",
-                "state": "SP",
-                "country": "Brasil",
-                "formattedAddress": [
-                  "Av. Doutor João Batista Soares de Queiroz Júnior, 2411 (Estrada Velha RJ/SP)",
-                  "São José dos Campos, SP",
-                  "12235-680",
-                  "Brasil"
-                ]
-              },
-              "categories": [
-                {
-                  "id": "4bf58dd8d48988d1c5941735",
-                  "name": "Sandwich Place",
-                  "pluralName": "Sandwich Places",
-                  "shortName": "Sandwiches",
-                  "icon": {
-                    "prefix": "https://ss3.4sqi.net/img/categories_v2/food/deli_",
-                    "suffix": ".png"
-                  },
-                  "primary": true
-                }
-              ],
-              "photos": {
-                "count": 0,
-                "groups": []
-              }
-            },
-            "referralId": "e-0-514c88bde4b066f6ca030038-1"
-          },
-          {
-            "reasons": {
-              "count": 0,
-              "items": [
-                {
-                  "summary": "This spot is popular",
-                  "type": "general",
-                  "reasonName": "globalInteractionReason"
-                }
-              ]
-            },
-            "venue": {
-              "id": "4e0906f37d8b2a018063bba9",
-              "name": "Padaria De Ville I",
-              "location": {
-                "address": "R. Icatu",
-                "crossStreet": "R. Penedo",
-                "lat": -23.242825337669228,
-                "lng": -45.909369396430215,
-                "labeledLatLngs": [
-                  {
-                    "label": "display",
-                    "lat": -23.242825337669228,
-                    "lng": -45.909369396430215
-                  }
-                ],
-                "distance": 366,
-                "cc": "BR",
-                "city": "São José dos Campos",
-                "state": "SP",
-                "country": "Brasil",
-                "formattedAddress": [
-                  "R. Icatu (R. Penedo)",
-                  "São José dos Campos, SP",
-                  "Brasil"
-                ]
-              },
-              "categories": [
-                {
-                  "id": "4bf58dd8d48988d16a941735",
-                  "name": "Bakery",
-                  "pluralName": "Bakeries",
-                  "shortName": "Bakery",
-                  "icon": {
-                    "prefix": "https://ss3.4sqi.net/img/categories_v2/food/bakery_",
-                    "suffix": ".png"
-                  },
-                  "primary": true
-                }
-              ],
-              "photos": {
-                "count": 0,
-                "groups": []
-              }
-            },
-            "referralId": "e-0-4e0906f37d8b2a018063bba9-2"
-          },
-          {
-            "reasons": {
-              "count": 0,
-              "items": [
-                {
-                  "summary": "This spot is popular",
-                  "type": "general",
-                  "reasonName": "globalInteractionReason"
-                }
-              ]
-            },
-            "venue": {
-              "id": "4ea488ad722ec75adf31379d",
-              "name": "Praça Natal",
-              "location": {
-                "address": "Pç.  Natal",
-                "crossStreet": "Pq. Industrial",
-                "lat": -23.237152953991167,
-                "lng": -45.9096580723655,
-                "labeledLatLngs": [
-                  {
-                    "label": "display",
-                    "lat": -23.237152953991167,
-                    "lng": -45.9096580723655
-                  }
-                ],
-                "distance": 502,
-                "cc": "BR",
-                "city": "São José dos Campos",
-                "state": "SP",
-                "country": "Brasil",
-                "formattedAddress": [
-                  "Pç.  Natal (Pq. Industrial)",
-                  "São José dos Campos, SP",
-                  "Brasil"
-                ]
-              },
-              "categories": [
-                {
-                  "id": "4bf58dd8d48988d164941735",
-                  "name": "Plaza",
-                  "pluralName": "Plazas",
-                  "shortName": "Plaza",
-                  "icon": {
-                    "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/plaza_",
-                    "suffix": ".png"
-                  },
-                  "primary": true
-                }
-              ],
-              "photos": {
-                "count": 0,
-                "groups": []
-              }
-            },
-            "referralId": "e-0-4ea488ad722ec75adf31379d-3"
-          },
-          {
-            "reasons": {
-              "count": 0,
-              "items": [
-                {
-                  "summary": "This spot is popular",
-                  "type": "general",
-                  "reasonName": "globalInteractionReason"
-                }
-              ]
-            },
-            "venue": {
-              "id": "4f023ee4f9abd5b392cf0416",
-              "name": "Taz Lanches e Açai",
-              "location": {
-                "lat": -23.246892595357078,
-                "lng": -45.911073594590206,
-                "labeledLatLngs": [
-                  {
-                    "label": "display",
-                    "lat": -23.246892595357078,
-                    "lng": -45.911073594590206
-                  }
-                ],
-                "distance": 673,
-                "cc": "BR",
-                "city": "São José dos Campos",
-                "state": "SP",
-                "country": "Brasil",
-                "formattedAddress": ["São José dos Campos, SP", "Brasil"]
-              },
-              "categories": [
-                {
-                  "id": "5294c7523cf9994f4e043a62",
-                  "name": "Acai House",
-                  "pluralName": "Acai Houses",
-                  "shortName": "Acai",
-                  "icon": {
-                    "prefix": "https://ss3.4sqi.net/img/categories_v2/food/argentinian_",
-                    "suffix": ".png"
-                  },
-                  "primary": true
-                }
-              ],
-              "photos": {
-                "count": 0,
-                "groups": []
-              }
-            },
-            "referralId": "e-0-4f023ee4f9abd5b392cf0416-4"
-          },
-          {
-            "reasons": {
-              "count": 0,
-              "items": [
-                {
-                  "summary": "This spot is popular",
-                  "type": "general",
-                  "reasonName": "globalInteractionReason"
-                }
-              ]
-            },
-            "venue": {
-              "id": "5333629a498e4ddc8a739bc0",
-              "name": "O Botequeiro - Bar e Petiscos",
-              "location": {
-                "address": "Av. Bacabal",
-                "lat": -23.248167670255203,
-                "lng": -45.909700756136274,
-                "labeledLatLngs": [
-                  {
-                    "label": "display",
-                    "lat": -23.248167670255203,
-                    "lng": -45.909700756136274
-                  }
-                ],
-                "distance": 847,
-                "cc": "BR",
-                "city": "São José dos Campos",
-                "state": "SP",
-                "country": "Brasil",
-                "formattedAddress": [
-                  "Av. Bacabal",
-                  "São José dos Campos, SP",
-                  "Brasil"
-                ]
-              },
-              "categories": [
-                {
-                  "id": "4bf58dd8d48988d116941735",
-                  "name": "Bar",
-                  "pluralName": "Bars",
-                  "shortName": "Bar",
-                  "icon": {
-                    "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_",
-                    "suffix": ".png"
-                  },
-                  "primary": true
-                }
-              ],
-              "photos": {
-                "count": 0,
-                "groups": []
-              }
-            },
-            "referralId": "e-0-5333629a498e4ddc8a739bc0-5"
-          },
-          {
-            "reasons": {
-              "count": 0,
-              "items": [
-                {
-                  "summary": "This spot is popular",
-                  "type": "general",
-                  "reasonName": "globalInteractionReason"
-                }
-              ]
-            },
-            "venue": {
-              "id": "4bf3bf00706e20a1e07ea898",
-              "name": "Padaria De Ville",
-              "location": {
-                "address": "Av. Itabaiana, 1050",
-                "lat": -23.248247477918287,
-                "lng": -45.91503453107563,
-                "labeledLatLngs": [
-                  {
-                    "label": "display",
-                    "lat": -23.248247477918287,
-                    "lng": -45.91503453107563
-                  }
-                ],
-                "distance": 858,
-                "cc": "BR",
-                "city": "São José dos Campos",
-                "state": "SP",
-                "country": "Brasil",
-                "formattedAddress": [
-                  "Av. Itabaiana, 1050",
-                  "São José dos Campos, SP",
-                  "Brasil"
-                ]
-              },
-              "categories": [
-                {
-                  "id": "4bf58dd8d48988d16a941735",
-                  "name": "Bakery",
-                  "pluralName": "Bakeries",
-                  "shortName": "Bakery",
-                  "icon": {
-                    "prefix": "https://ss3.4sqi.net/img/categories_v2/food/bakery_",
-                    "suffix": ".png"
-                  },
-                  "primary": true
-                }
-              ],
-              "photos": {
-                "count": 0,
-                "groups": []
-              }
-            },
-            "referralId": "e-0-4bf3bf00706e20a1e07ea898-6"
-          },
-          {
-            "reasons": {
-              "count": 0,
-              "items": [
-                {
-                  "summary": "This spot is popular",
-                  "type": "general",
-                  "reasonName": "globalInteractionReason"
-                }
-              ]
-            },
-            "venue": {
-              "id": "57ffc4eb38fa4c6bb7a2a37c",
-              "name": "Sabores do Jardim",
-              "location": {
-                "address": "Avenida Dr. João Batista Soares de Queiroz Júnior, 2441",
-                "lat": -23.230310389328206,
-                "lng": -45.920650517545134,
-                "labeledLatLngs": [
-                  {
-                    "label": "display",
-                    "lat": -23.230310389328206,
-                    "lng": -45.920650517545134
-                  }
-                ],
-                "distance": 1458,
-                "postalCode": "12240-000",
-                "cc": "BR",
-                "city": "São José dos Campos",
-                "state": "SP",
-                "country": "Brasil",
-                "formattedAddress": [
-                  "Avenida Dr. João Batista Soares de Queiroz Júnior, 2441",
-                  "São José dos Campos, SP",
-                  "12240-000",
-                  "Brasil"
-                ]
-              },
-              "categories": [
-                {
-                  "id": "52e81612bcbc57f1066b79f4",
-                  "name": "Buffet",
-                  "pluralName": "Buffets",
-                  "shortName": "Buffet",
-                  "icon": {
-                    "prefix": "https://ss3.4sqi.net/img/categories_v2/food/default_",
-                    "suffix": ".png"
-                  },
-                  "primary": true
-                }
-              ],
-              "photos": {
-                "count": 0,
-                "groups": []
-              }
-            },
-            "referralId": "e-0-57ffc4eb38fa4c6bb7a2a37c-7"
-          },
-          {
-            "reasons": {
-              "count": 0,
-              "items": [
-                {
-                  "summary": "This spot is popular",
-                  "type": "general",
-                  "reasonName": "globalInteractionReason"
-                }
-              ]
-            },
-            "venue": {
-              "id": "4fd3cb56e4b00127ba04c479",
-              "name": "Bar do Digao",
-              "location": {
-                "lat": -23.25084580212131,
-                "lng": -45.90981404129764,
-                "labeledLatLngs": [
-                  {
-                    "label": "display",
-                    "lat": -23.25084580212131,
-                    "lng": -45.90981404129764
-                  }
-                ],
-                "distance": 1131,
-                "cc": "BR",
-                "country": "Brasil",
-                "formattedAddress": ["Brasil"]
-              },
-              "categories": [
-                {
-                  "id": "50327c8591d4c4b30a586d5d",
-                  "name": "Brewery",
-                  "pluralName": "Breweries",
-                  "shortName": "Brewery",
-                  "icon": {
-                    "prefix": "https://ss3.4sqi.net/img/categories_v2/food/brewery_",
-                    "suffix": ".png"
-                  },
-                  "primary": true
-                }
-              ],
-              "photos": {
-                "count": 0,
-                "groups": []
-              }
-            },
-            "referralId": "e-0-4fd3cb56e4b00127ba04c479-8"
-          },
-          {
-            "reasons": {
-              "count": 0,
-              "items": [
-                {
-                  "summary": "This spot is popular",
-                  "type": "general",
-                  "reasonName": "globalInteractionReason"
-                }
-              ]
-            },
-            "venue": {
-              "id": "561c26c2498ed6b448e54dd0",
-              "name": "Drogaria São Paulo",
-              "location": {
-                "address": "Rua João Batista de Soares Queiroz Junior",
-                "crossStreet": "Rua Das Quaresmeiras",
-                "lat": -23.23064386648528,
-                "lng": -45.920303512840874,
-                "labeledLatLngs": [
-                  {
-                    "label": "display",
-                    "lat": -23.23064386648528,
-                    "lng": -45.920303512840874
-                  }
-                ],
-                "distance": 1408,
-                "postalCode": "12340-000",
-                "cc": "BR",
-                "city": "São José dos Campos",
-                "state": "SP",
-                "country": "Brasil",
-                "formattedAddress": [
-                  "Rua João Batista de Soares Queiroz Junior (Rua Das Quaresmeiras)",
-                  "São José dos Campos, SP",
-                  "12340-000",
-                  "Brasil"
-                ]
-              },
-              "categories": [
-                {
-                  "id": "4bf58dd8d48988d10f951735",
-                  "name": "Pharmacy",
-                  "pluralName": "Pharmacies",
-                  "shortName": "Pharmacy",
-                  "icon": {
-                    "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/pharmacy_",
-                    "suffix": ".png"
-                  },
-                  "primary": true
-                }
-              ],
-              "photos": {
-                "count": 0,
-                "groups": []
-              }
-            },
-            "referralId": "e-0-561c26c2498ed6b448e54dd0-9"
-          },
-          {
-            "reasons": {
-              "count": 0,
-              "items": [
-                {
-                  "summary": "This spot is popular",
-                  "type": "general",
-                  "reasonName": "globalInteractionReason"
-                }
-              ]
-            },
-            "venue": {
-              "id": "562ce5b4498e40ad74f9f755",
-              "name": "Restaurante do Careca",
-              "location": {
-                "lat": -23.234788784604074,
-                "lng": -45.90342216844461,
-                "labeledLatLngs": [
-                  {
-                    "label": "display",
-                    "lat": -23.234788784604074,
-                    "lng": -45.90342216844461
-                  }
-                ],
-                "distance": 1139,
-                "cc": "BR",
-                "country": "Brasil",
-                "formattedAddress": ["Brasil"]
-              },
-              "categories": [
-                {
-                  "id": "4bf58dd8d48988d1c4941735",
-                  "name": "Restaurant",
-                  "pluralName": "Restaurants",
-                  "shortName": "Restaurant",
-                  "icon": {
-                    "prefix": "https://ss3.4sqi.net/img/categories_v2/food/default_",
-                    "suffix": ".png"
-                  },
-                  "primary": true
-                }
-              ],
-              "photos": {
-                "count": 0,
-                "groups": []
-              }
-            },
-            "referralId": "e-0-562ce5b4498e40ad74f9f755-10"
-          },
-          {
-            "reasons": {
-              "count": 0,
-              "items": [
-                {
-                  "summary": "This spot is popular",
-                  "type": "general",
-                  "reasonName": "globalInteractionReason"
-                }
-              ]
-            },
-            "venue": {
-              "id": "4e63da107d8b85408a46b233",
-              "name": "Sorvetes Kawai",
-              "location": {
-                "address": "R. Sena Madureira",
-                "crossStreet": "Conj. 31 de Março",
-                "lat": -23.247568269836542,
-                "lng": -45.91814726237579,
-                "labeledLatLngs": [
-                  {
-                    "label": "display",
-                    "lat": -23.247568269836542,
-                    "lng": -45.91814726237579
-                  }
-                ],
-                "distance": 947,
-                "postalCode": "12237-010",
-                "cc": "BR",
-                "city": "São José dos Campos",
-                "state": "SP",
-                "country": "Brasil",
-                "formattedAddress": [
-                  "R. Sena Madureira (Conj. 31 de Março)",
-                  "São José dos Campos, SP",
-                  "12237-010",
-                  "Brasil"
-                ]
-              },
-              "categories": [
-                {
-                  "id": "4bf58dd8d48988d1d0941735",
-                  "name": "Dessert Shop",
-                  "pluralName": "Dessert Shops",
-                  "shortName": "Desserts",
-                  "icon": {
-                    "prefix": "https://ss3.4sqi.net/img/categories_v2/food/dessert_",
-                    "suffix": ".png"
-                  },
-                  "primary": true
-                }
-              ],
-              "photos": {
-                "count": 0,
-                "groups": []
-              }
-            },
-            "referralId": "e-0-4e63da107d8b85408a46b233-11"
-          },
-          {
-            "reasons": {
-              "count": 0,
-              "items": [
-                {
-                  "summary": "This spot is popular",
-                  "type": "general",
-                  "reasonName": "globalInteractionReason"
-                }
-              ]
-            },
-            "venue": {
-              "id": "4c58962c04f9be9a804ded60",
-              "name": "Sam's Club",
-              "location": {
-                "address": "Av. Cassiano Ricardo, 1993",
-                "lat": -23.228326924340497,
-                "lng": -45.911271920201976,
-                "labeledLatLngs": [
-                  {
-                    "label": "display",
-                    "lat": -23.228326924340497,
-                    "lng": -45.911271920201976
-                  }
-                ],
-                "distance": 1409,
-                "postalCode": "12240-540",
-                "cc": "BR",
-                "city": "São José dos Campos",
-                "state": "SP",
-                "country": "Brasil",
-                "formattedAddress": [
-                  "Av. Cassiano Ricardo, 1993",
-                  "São José dos Campos, SP",
-                  "12240-540",
-                  "Brasil"
-                ]
-              },
-              "categories": [
-                {
-                  "id": "52e816a6bcbc57f1066b7a54",
-                  "name": "Warehouse Store",
-                  "pluralName": "Warehouse Stores",
-                  "shortName": "Warehouse Store",
-                  "icon": {
-                    "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/default_",
-                    "suffix": ".png"
-                  },
-                  "primary": true
-                }
-              ],
-              "photos": {
-                "count": 0,
-                "groups": []
-              }
-            },
-            "referralId": "e-0-4c58962c04f9be9a804ded60-12"
-          },
-          {
-            "reasons": {
-              "count": 0,
-              "items": [
-                {
-                  "summary": "This spot is popular",
-                  "type": "general",
-                  "reasonName": "globalInteractionReason"
-                }
-              ]
-            },
-            "venue": {
-              "id": "4e4a638bd4c0dae7bfcac1c3",
-              "name": "Academia Winner",
-              "location": {
-                "address": "R. Rosario, 650",
-                "lat": -23.234341805815703,
-                "lng": -45.90080785684547,
-                "labeledLatLngs": [
-                  {
-                    "label": "display",
-                    "lat": -23.234341805815703,
-                    "lng": -45.90080785684547
-                  }
-                ],
-                "distance": 1388,
-                "cc": "BR",
-                "city": "São José dos Campos",
-                "state": "SP",
-                "country": "Brasil",
-                "formattedAddress": [
-                  "R. Rosario, 650",
-                  "São José dos Campos, SP",
-                  "Brasil"
-                ]
-              },
-              "categories": [
-                {
-                  "id": "4bf58dd8d48988d176941735",
-                  "name": "Gym",
-                  "pluralName": "Gyms",
-                  "shortName": "Gym",
-                  "icon": {
-                    "prefix": "https://ss3.4sqi.net/img/categories_v2/building/gym_",
-                    "suffix": ".png"
-                  },
-                  "primary": true
-                }
-              ],
-              "photos": {
-                "count": 0,
-                "groups": []
-              }
-            },
-            "referralId": "e-0-4e4a638bd4c0dae7bfcac1c3-13"
-          },
-          {
-            "reasons": {
-              "count": 0,
-              "items": [
-                {
-                  "summary": "This spot is popular",
-                  "type": "general",
-                  "reasonName": "globalInteractionReason"
-                }
-              ]
-            },
-            "venue": {
-              "id": "4df7f1bf2271607ac916a0c7",
-              "name": "Golaço Futebol Society",
-              "location": {
-                "lat": -23.242539283520284,
-                "lng": -45.904961258690456,
-                "labeledLatLngs": [
-                  {
-                    "label": "display",
-                    "lat": -23.242539283520284,
-                    "lng": -45.904961258690456
-                  }
-                ],
-                "distance": 773,
-                "postalCode": "12245-310",
-                "cc": "BR",
-                "city": "São José dos Campos",
-                "state": "SP",
-                "country": "Brasil",
-                "formattedAddress": [
-                  "São José dos Campos, SP",
-                  "12245-310",
-                  "Brasil"
-                ]
-              },
-              "categories": [
-                {
-                  "id": "4cce455aebf7b749d5e191f5",
-                  "name": "Soccer Field",
-                  "pluralName": "Soccer Fields",
-                  "shortName": "Soccer Field",
-                  "icon": {
-                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/stadium_soccer_",
-                    "suffix": ".png"
-                  },
-                  "primary": true
-                }
-              ],
-              "photos": {
-                "count": 0,
-                "groups": []
-              }
-            },
-            "referralId": "e-0-4df7f1bf2271607ac916a0c7-14"
-          },
-          {
-            "reasons": {
-              "count": 0,
-              "items": [
-                {
-                  "summary": "This spot is popular",
-                  "type": "general",
-                  "reasonName": "globalInteractionReason"
-                }
-              ]
-            },
-            "venue": {
-              "id": "4cba5bd69552b60c93cfd98b",
-              "name": "Impéria Chopperia",
-              "location": {
-                "address": "Av. Dr. João Batista de Souza Soares, 2411",
-                "lat": -23.242493943291077,
-                "lng": -45.905845154499474,
-                "labeledLatLngs": [
-                  {
-                    "label": "display",
-                    "lat": -23.242493943291077,
-                    "lng": -45.905845154499474
-                  }
-                ],
-                "distance": 684,
-                "cc": "BR",
-                "city": "São José dos Campos",
-                "state": "SP",
-                "country": "Brasil",
-                "formattedAddress": [
-                  "Av. Dr. João Batista de Souza Soares, 2411",
-                  "São José dos Campos, SP",
-                  "Brasil"
-                ]
-              },
-              "categories": [
-                {
-                  "id": "4bf58dd8d48988d16b941735",
-                  "name": "Brazilian Restaurant",
-                  "pluralName": "Brazilian Restaurants",
-                  "shortName": "Brazilian",
-                  "icon": {
-                    "prefix": "https://ss3.4sqi.net/img/categories_v2/food/argentinian_",
-                    "suffix": ".png"
-                  },
-                  "primary": true
-                }
-              ],
-              "photos": {
-                "count": 0,
-                "groups": []
-              }
-            },
-            "referralId": "e-0-4cba5bd69552b60c93cfd98b-15"
-          },
-          {
-            "reasons": {
-              "count": 0,
-              "items": [
-                {
-                  "summary": "This spot is popular",
-                  "type": "general",
-                  "reasonName": "globalInteractionReason"
-                }
-              ]
-            },
-            "venue": {
-              "id": "55c6312f498e07f0bf770b22",
-              "name": "Cervejaria Three Lions",
-              "location": {
-                "address": "Rua Moxotó, 46",
-                "crossStreet": "Rua Miracema",
-                "lat": -23.250864412860277,
-                "lng": -45.923633136575944,
-                "labeledLatLngs": [
-                  {
-                    "label": "display",
-                    "lat": -23.250864412860277,
-                    "lng": -45.923633136575944
-                  }
-                ],
-                "distance": 1599,
-                "postalCode": "12238-320",
-                "cc": "BR",
-                "neighborhood": "Chácaras Reunidas",
-                "city": "São José dos Campos",
-                "state": "SP",
-                "country": "Brasil",
-                "formattedAddress": [
-                  "Rua Moxotó, 46 (Rua Miracema)",
-                  "São José dos Campos, SP",
-                  "12238-320",
-                  "Brasil"
-                ]
-              },
-              "categories": [
-                {
-                  "id": "50327c8591d4c4b30a586d5d",
-                  "name": "Brewery",
-                  "pluralName": "Breweries",
-                  "shortName": "Brewery",
-                  "icon": {
-                    "prefix": "https://ss3.4sqi.net/img/categories_v2/food/brewery_",
-                    "suffix": ".png"
-                  },
-                  "primary": true
-                }
-              ],
-              "photos": {
-                "count": 0,
-                "groups": []
-              }
-            },
-            "referralId": "e-0-55c6312f498e07f0bf770b22-16"
-          },
-          {
-            "reasons": {
-              "count": 0,
-              "items": [
-                {
-                  "summary": "This spot is popular",
-                  "type": "general",
-                  "reasonName": "globalInteractionReason"
-                }
-              ]
-            },
-            "venue": {
-              "id": "5095a9aae4b0f717032c9331",
-              "name": "Oriental Delivery",
-              "location": {
-                "address": "Rua Valença, 510",
-                "lat": -23.236534590112523,
-                "lng": -45.90998305709616,
-                "labeledLatLngs": [
-                  {
-                    "label": "display",
-                    "lat": -23.236534590112523,
-                    "lng": -45.90998305709616
-                  }
-                ],
-                "distance": 546,
-                "cc": "BR",
-                "country": "Brasil",
-                "formattedAddress": ["Rua Valença, 510", "Brasil"]
-              },
-              "categories": [
-                {
-                  "id": "4bf58dd8d48988d1d2941735",
-                  "name": "Sushi Restaurant",
-                  "pluralName": "Sushi Restaurants",
-                  "shortName": "Sushi",
-                  "icon": {
-                    "prefix": "https://ss3.4sqi.net/img/categories_v2/food/sushi_",
-                    "suffix": ".png"
-                  },
-                  "primary": true
-                }
-              ],
-              "photos": {
-                "count": 0,
-                "groups": []
-              }
-            },
-            "referralId": "e-0-5095a9aae4b0f717032c9331-17"
-          },
-          {
-            "reasons": {
-              "count": 0,
-              "items": [
-                {
-                  "summary": "This spot is popular",
-                  "type": "general",
-                  "reasonName": "globalInteractionReason"
-                }
-              ]
-            },
-            "venue": {
-              "id": "54261d16498ec1f340a1e9a4",
-              "name": "Calçada Brasileira",
-              "location": {
-                "address": "Avenida Bacabal",
-                "lat": -23.242198334874637,
-                "lng": -45.905486389045684,
-                "labeledLatLngs": [
-                  {
-                    "label": "display",
-                    "lat": -23.242198334874637,
-                    "lng": -45.905486389045684
-                  }
-                ],
-                "distance": 712,
-                "postalCode": "12235-200",
-                "cc": "BR",
-                "city": "São José dos Campos",
-                "state": "SP",
-                "country": "Brasil",
-                "formattedAddress": [
-                  "Avenida Bacabal",
-                  "São José dos Campos, SP",
-                  "12235-200",
-                  "Brasil"
-                ]
-              },
-              "categories": [
-                {
-                  "id": "52939a643cf9994f4e043a33",
-                  "name": "Churrascaria",
-                  "pluralName": "Churrascarias",
-                  "shortName": "Churrascaria",
-                  "icon": {
-                    "prefix": "https://ss3.4sqi.net/img/categories_v2/food/argentinian_",
-                    "suffix": ".png"
-                  },
-                  "primary": true
-                }
-              ],
-              "photos": {
-                "count": 0,
-                "groups": []
-              }
-            },
-            "referralId": "e-0-54261d16498ec1f340a1e9a4-18"
-          },
-          {
-            "reasons": {
-              "count": 0,
-              "items": [
-                {
-                  "summary": "This spot is popular",
-                  "type": "general",
-                  "reasonName": "globalInteractionReason"
-                }
-              ]
-            },
-            "venue": {
-              "id": "4c3c7b29b36ac928e61d0486",
-              "name": "Flor de Ypê",
-              "location": {
-                "address": "R. Madagascar, 181",
-                "lat": -23.236792363557587,
-                "lng": -45.90375907357708,
-                "labeledLatLngs": [
-                  {
-                    "label": "display",
-                    "lat": -23.236792363557587,
-                    "lng": -45.90375907357708
-                  }
-                ],
-                "distance": 990,
-                "postalCode": "12235-450",
-                "cc": "BR",
-                "city": "São José dos Campos",
-                "state": "SP",
-                "country": "Brasil",
-                "formattedAddress": [
-                  "R. Madagascar, 181",
-                  "São José dos Campos, SP",
-                  "12235-450",
-                  "Brasil"
-                ]
-              },
-              "categories": [
-                {
-                  "id": "4bf58dd8d48988d16a941735",
-                  "name": "Bakery",
-                  "pluralName": "Bakeries",
-                  "shortName": "Bakery",
-                  "icon": {
-                    "prefix": "https://ss3.4sqi.net/img/categories_v2/food/bakery_",
-                    "suffix": ".png"
-                  },
-                  "primary": true
-                }
-              ],
-              "photos": {
-                "count": 0,
-                "groups": []
-              }
-            },
-            "referralId": "e-0-4c3c7b29b36ac928e61d0486-19"
-          },
-          {
-            "reasons": {
-              "count": 0,
-              "items": [
-                {
-                  "summary": "This spot is popular",
-                  "type": "general",
-                  "reasonName": "globalInteractionReason"
-                }
-              ]
-            },
-            "venue": {
-              "id": "4bb4c9828786ef3b81a86533",
-              "name": "Hard Kick - Kick Boxing",
-              "location": {
-                "address": "Rua palmares, 816",
-                "lat": -23.235251324730857,
-                "lng": -45.90588202559612,
-                "labeledLatLngs": [
-                  {
-                    "label": "display",
-                    "lat": -23.235251324730857,
-                    "lng": -45.90588202559612
-                  }
-                ],
-                "distance": 914,
-                "cc": "BR",
-                "city": "São José dos Campos",
-                "state": "SP",
-                "country": "Brasil",
-                "formattedAddress": [
-                  "Rua palmares, 816",
-                  "São José dos Campos, SP",
-                  "Brasil"
-                ]
-              },
-              "categories": [
-                {
-                  "id": "4bf58dd8d48988d101941735",
-                  "name": "Martial Arts Dojo",
-                  "pluralName": "Martial Arts Dojos",
-                  "shortName": "Martial Arts",
-                  "icon": {
-                    "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/gym_martialarts_",
-                    "suffix": ".png"
-                  },
-                  "primary": true
-                }
-              ],
-              "photos": {
-                "count": 0,
-                "groups": []
-              }
-            },
-            "referralId": "e-0-4bb4c9828786ef3b81a86533-20"
-          },
-          {
-            "reasons": {
-              "count": 0,
-              "items": [
-                {
-                  "summary": "This spot is popular",
-                  "type": "general",
-                  "reasonName": "globalInteractionReason"
-                }
-              ]
-            },
-            "venue": {
-              "id": "4fb7b612e4b0516e8746b6fd",
-              "name": "Y2",
-              "location": {
-                "address": "Av. Guadalupe, 498 - Jardim América",
-                "lat": -23.231739568454522,
-                "lng": -45.89913941233037,
-                "labeledLatLngs": [
-                  {
-                    "label": "display",
-                    "lat": -23.231739568454522,
-                    "lng": -45.89913941233037
-                  }
-                ],
-                "distance": 1693,
-                "postalCode": "12235-000",
-                "cc": "BR",
-                "neighborhood": "Jardim América",
-                "city": "São José dos Campos",
-                "state": "SP",
-                "country": "Brasil",
-                "formattedAddress": [
-                  "Av. Guadalupe, 498 - Jardim América",
-                  "São José dos Campos, SP",
-                  "12235-000",
-                  "Brasil"
-                ]
-              },
-              "categories": [
-                {
-                  "id": "4bf58dd8d48988d176941735",
-                  "name": "Gym",
-                  "pluralName": "Gyms",
-                  "shortName": "Gym",
-                  "icon": {
-                    "prefix": "https://ss3.4sqi.net/img/categories_v2/building/gym_",
-                    "suffix": ".png"
-                  },
-                  "primary": true
-                }
-              ],
-              "photos": {
-                "count": 0,
-                "groups": []
-              }
-            },
-            "referralId": "e-0-4fb7b612e4b0516e8746b6fd-21"
-          },
-          {
-            "reasons": {
-              "count": 0,
-              "items": [
-                {
-                  "summary": "This spot is popular",
-                  "type": "general",
-                  "reasonName": "globalInteractionReason"
-                }
-              ]
-            },
-            "venue": {
-              "id": "593c821c0a464d2a57a67410",
-              "name": "Marujo Beach Bar",
-              "location": {
-                "lat": -23.226576,
-                "lng": -45.916233,
-                "labeledLatLngs": [
-                  {
-                    "label": "display",
-                    "lat": -23.226576,
-                    "lng": -45.916233
-                  }
-                ],
-                "distance": 1649,
-                "postalCode": "12240-000",
-                "cc": "BR",
-                "city": "Sao Jose dos Campos",
-                "state": "State of São Paulo",
-                "country": "Brasil",
-                "formattedAddress": [
-                  "Sao Jose dos Campos, State of São Paulo",
-                  "12240-000",
-                  "Brasil"
-                ]
-              },
-              "categories": [
-                {
-                  "id": "52e81612bcbc57f1066b7a0d",
-                  "name": "Beach Bar",
-                  "pluralName": "Beach Bars",
-                  "shortName": "Beach Bar",
-                  "icon": {
-                    "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/default_",
-                    "suffix": ".png"
-                  },
-                  "primary": true
-                }
-              ],
-              "photos": {
-                "count": 0,
-                "groups": []
-              }
-            },
-            "referralId": "e-0-593c821c0a464d2a57a67410-22"
-          },
-          {
-            "reasons": {
-              "count": 0,
-              "items": [
-                {
-                  "summary": "This spot is popular",
-                  "type": "general",
-                  "reasonName": "globalInteractionReason"
-                }
-              ]
-            },
-            "venue": {
-              "id": "589ba2111ac0041f38714970",
-              "name": "Shibata",
-              "location": {
-                "lat": -23.237605025726566,
-                "lng": -45.89670779297162,
-                "labeledLatLngs": [
-                  {
-                    "label": "display",
-                    "lat": -23.237605025726566,
-                    "lng": -45.89670779297162
-                  }
-                ],
-                "distance": 1639,
-                "cc": "BR",
-                "country": "Brasil",
-                "formattedAddress": ["Brasil"]
-              },
-              "categories": [
-                {
-                  "id": "52f2ab2ebcbc57f1066b8b46",
-                  "name": "Supermarket",
-                  "pluralName": "Supermarkets",
-                  "shortName": "Supermarket",
-                  "icon": {
-                    "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/food_grocery_",
-                    "suffix": ".png"
-                  },
-                  "primary": true
-                }
-              ],
-              "photos": {
-                "count": 0,
-                "groups": []
-              }
-            },
-            "referralId": "e-0-589ba2111ac0041f38714970-23"
-          },
-          {
-            "reasons": {
-              "count": 0,
-              "items": [
-                {
-                  "summary": "This spot is popular",
-                  "type": "general",
-                  "reasonName": "globalInteractionReason"
-                }
-              ]
-            },
-            "venue": {
-              "id": "4fcbfdfbe4b067457cd20ed9",
-              "name": "Centro de Referência da Juventude",
-              "location": {
-                "address": "Rua Aurora Pinto da Cunha, 131",
-                "lat": -23.22862138833273,
-                "lng": -45.899798152934835,
-                "labeledLatLngs": [
-                  {
-                    "label": "display",
-                    "lat": -23.22862138833273,
-                    "lng": -45.899798152934835
-                  }
-                ],
-                "distance": 1876,
-                "postalCode": "12235-190",
-                "cc": "BR",
-                "city": "São José dos Campos",
-                "state": "SP",
-                "country": "Brasil",
-                "formattedAddress": [
-                  "Rua Aurora Pinto da Cunha, 131",
-                  "São José dos Campos, SP",
-                  "12235-190",
-                  "Brasil"
-                ]
-              },
-              "categories": [
-                {
-                  "id": "4bf58dd8d48988d1f1931735",
-                  "name": "General Entertainment",
-                  "pluralName": "General Entertainment",
-                  "shortName": "Entertainment",
-                  "icon": {
-                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/default_",
-                    "suffix": ".png"
-                  },
-                  "primary": true
-                }
-              ],
-              "photos": {
-                "count": 0,
-                "groups": []
-              }
-            },
-            "referralId": "e-0-4fcbfdfbe4b067457cd20ed9-24"
-          },
-          {
-            "reasons": {
-              "count": 0,
-              "items": [
-                {
-                  "summary": "This spot is popular",
-                  "type": "general",
-                  "reasonName": "globalInteractionReason"
-                }
-              ]
-            },
-            "venue": {
-              "id": "5aad241e0d2be7349587019a",
-              "name": "Prato Food Hall",
-              "location": {
-                "lat": -23.224454835421998,
-                "lng": -45.90975240693868,
-                "labeledLatLngs": [
-                  {
-                    "label": "display",
-                    "lat": -23.224454835421998,
-                    "lng": -45.90975240693868
-                  }
-                ],
-                "distance": 1854,
-                "postalCode": "12246-876",
-                "cc": "BR",
-                "city": "São José dos Campos",
-                "state": "SP",
-                "country": "Brasil",
-                "formattedAddress": [
-                  "São José dos Campos, SP",
-                  "12246-876",
-                  "Brasil"
-                ]
-              },
-              "categories": [
-                {
-                  "id": "4bf58dd8d48988d120951735",
-                  "name": "Food Court",
-                  "pluralName": "Food Courts",
-                  "shortName": "Food Court",
-                  "icon": {
-                    "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/food_foodcourt_",
-                    "suffix": ".png"
-                  },
-                  "primary": true
-                }
-              ],
-              "photos": {
-                "count": 0,
-                "groups": []
-              }
-            },
-            "referralId": "e-0-5aad241e0d2be7349587019a-25"
-          },
-          {
-            "reasons": {
-              "count": 0,
-              "items": [
-                {
-                  "summary": "This spot is popular",
-                  "type": "general",
-                  "reasonName": "globalInteractionReason"
-                }
-              ]
-            },
-            "venue": {
-              "id": "5d62f792bde37a00081d5eac",
-              "name": "Cinépolis Jardim Oriente",
-              "location": {
-                "address": "Rua Andorra, 500, Loja H, Piso Térreo",
-                "lat": -23.236713,
-                "lng": -45.896957,
-                "labeledLatLngs": [
-                  {
-                    "label": "display",
-                    "lat": -23.236713,
-                    "lng": -45.896957
-                  }
-                ],
-                "distance": 1640,
-                "postalCode": "12235-050",
-                "cc": "BR",
-                "neighborhood": "Jardim América",
-                "city": "São José dos Campos",
-                "state": "SP",
-                "country": "Brasil",
-                "formattedAddress": [
-                  "Rua Andorra, 500, Loja H, Piso Térreo",
-                  "São José dos Campos, SP",
-                  "12235-050",
-                  "Brasil"
-                ]
-              },
-              "categories": [
-                {
-                  "id": "4bf58dd8d48988d17f941735",
-                  "name": "Movie Theater",
-                  "pluralName": "Movie Theaters",
-                  "shortName": "Movie Theater",
-                  "icon": {
-                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/movietheater_",
-                    "suffix": ".png"
-                  },
-                  "primary": true
-                }
-              ],
-              "photos": {
-                "count": 0,
-                "groups": []
-              }
-            },
-            "referralId": "e-0-5d62f792bde37a00081d5eac-26"
-          },
-          {
-            "reasons": {
-              "count": 0,
-              "items": [
-                {
-                  "summary": "This spot is popular",
-                  "type": "general",
-                  "reasonName": "globalInteractionReason"
-                }
-              ]
-            },
-            "venue": {
-              "id": "5135163fe4b067f7967144da",
-              "name": "CrossFitVale",
-              "location": {
-                "address": "Rua Carlos Maria Auricchio, 55",
-                "lat": -23.224163261075244,
-                "lng": -45.910484466423334,
-                "labeledLatLngs": [
-                  {
-                    "label": "display",
-                    "lat": -23.224163261075244,
-                    "lng": -45.910484466423334
-                  }
-                ],
-                "distance": 1877,
-                "postalCode": "12246-870",
-                "cc": "BR",
-                "city": "São José dos Campos",
-                "state": "SP",
-                "country": "Brasil",
-                "formattedAddress": [
-                  "Rua Carlos Maria Auricchio, 55",
-                  "São José dos Campos, SP",
-                  "12246-870",
-                  "Brasil"
-                ]
-              },
-              "categories": [
-                {
-                  "id": "4bf58dd8d48988d176941735",
-                  "name": "Gym",
-                  "pluralName": "Gyms",
-                  "shortName": "Gym",
-                  "icon": {
-                    "prefix": "https://ss3.4sqi.net/img/categories_v2/building/gym_",
-                    "suffix": ".png"
-                  },
-                  "primary": true
-                }
-              ],
-              "photos": {
-                "count": 0,
-                "groups": []
-              }
-            },
-            "referralId": "e-0-5135163fe4b067f7967144da-27"
-          },
-          {
-            "reasons": {
-              "count": 0,
-              "items": [
-                {
-                  "summary": "This spot is popular",
-                  "type": "general",
-                  "reasonName": "globalInteractionReason"
-                }
-              ]
-            },
-            "venue": {
-              "id": "57e4768fcd1092856a0fdaf3",
-              "name": "Gasoline Brothers",
-              "location": {
-                "address": "Av. Dr. João Baptista Soares de Queiroz Júnior, 718 - Jardim das Industrias",
-                "lat": -23.22697058924162,
-                "lng": -45.91595448294521,
-                "labeledLatLngs": [
-                  {
-                    "label": "display",
-                    "lat": -23.22697058924162,
-                    "lng": -45.91595448294521
-                  }
-                ],
-                "distance": 1599,
-                "cc": "BR",
-                "city": "São José dos Campos",
-                "state": "SP",
-                "country": "Brasil",
-                "formattedAddress": [
-                  "Av. Dr. João Baptista Soares de Queiroz Júnior, 718 - Jardim das Industrias",
-                  "São José dos Campos, SP",
-                  "Brasil"
-                ]
-              },
-              "categories": [
-                {
-                  "id": "4bf58dd8d48988d116941735",
-                  "name": "Bar",
-                  "pluralName": "Bars",
-                  "shortName": "Bar",
-                  "icon": {
-                    "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_",
-                    "suffix": ".png"
-                  },
-                  "primary": true
-                }
-              ],
-              "photos": {
-                "count": 0,
-                "groups": []
-              }
-            },
-            "referralId": "e-0-57e4768fcd1092856a0fdaf3-28"
-          },
-          {
-            "reasons": {
-              "count": 0,
-              "items": [
-                {
-                  "summary": "This spot is popular",
-                  "type": "general",
-                  "reasonName": "globalInteractionReason"
-                }
-              ]
-            },
-            "venue": {
-              "id": "4d8230496476a0935c671d53",
-              "name": "Barril Restaurante",
-              "location": {
-                "crossStreet": "Prq. Industrial",
-                "lat": -23.229067938700414,
-                "lng": -45.90221804456784,
-                "labeledLatLngs": [
-                  {
-                    "label": "display",
-                    "lat": -23.229067938700414,
-                    "lng": -45.90221804456784
-                  }
-                ],
-                "distance": 1678,
-                "postalCode": "12235-620",
-                "cc": "BR",
-                "neighborhood": "Pq. Industrial",
-                "city": "São José dos Campos",
-                "state": "SP",
-                "country": "Brasil",
-                "formattedAddress": [
-                  "Prq. Industrial",
-                  "São José dos Campos, SP",
-                  "12235-620",
-                  "Brasil"
-                ]
-              },
-              "categories": [
-                {
-                  "id": "4bf58dd8d48988d16b941735",
-                  "name": "Brazilian Restaurant",
-                  "pluralName": "Brazilian Restaurants",
-                  "shortName": "Brazilian",
-                  "icon": {
-                    "prefix": "https://ss3.4sqi.net/img/categories_v2/food/argentinian_",
-                    "suffix": ".png"
-                  },
-                  "primary": true
-                }
-              ],
-              "photos": {
-                "count": 0,
-                "groups": []
-              }
-            },
-            "referralId": "e-0-4d8230496476a0935c671d53-29"
+            "name": "Open now",
+            "key": "openNow"
           }
         ]
-      }
-    ]
+      },
+      "suggestedRadius": 2217,
+      "headerLocation": "São José dos Campos",
+      "headerFullLocation": "São José dos Campos",
+      "headerLocationGranularity": "city",
+      "totalResults": 101,
+      "suggestedBounds": {
+        "ne": {
+          "lat": -23.222828203485992,
+          "lng": -45.89536152579141
+        },
+        "sw": {
+          "lat": -23.252199470449536,
+          "lng": -45.92497940375616
+        }
+      },
+      "groups": [
+        {
+          "type": "Recommended Places",
+          "name": "recommended",
+          "items": [
+            {
+              "reasons": {
+                "count": 0,
+                "items": [
+                  {
+                    "summary": "This spot is popular",
+                    "type": "general",
+                    "reasonName": "globalInteractionReason"
+                  }
+                ]
+              },
+              "venue": {
+                "id": "4e81a3decc21d3d2726ea8fe",
+                "name": "Academia Agua Viva",
+                "location": {
+                  "address": "Rua Olinda",
+                  "lat": -23.243558622780405,
+                  "lng": -45.90826183776025,
+                  "labeledLatLngs": [
+                    {
+                      "label": "display",
+                      "lat": -23.243558622780405,
+                      "lng": -45.90826183776025
+                    }
+                  ],
+                  "distance": 506,
+                  "cc": "BR",
+                  "city": "São José dos Campos",
+                  "state": "SP",
+                  "country": "Brasil",
+                  "formattedAddress": [
+                    "Rua Olinda",
+                    "São José dos Campos, SP",
+                    "Brasil"
+                  ]
+                },
+                "categories": [
+                  {
+                    "id": "4bf58dd8d48988d176941735",
+                    "name": "Gym",
+                    "pluralName": "Gyms",
+                    "shortName": "Gym",
+                    "icon": {
+                      "prefix": "https://ss3.4sqi.net/img/categories_v2/building/gym_",
+                      "suffix": ".png"
+                    },
+                    "primary": true
+                  }
+                ],
+                "photos": {
+                  "count": 0,
+                  "groups": []
+                }
+              },
+              "referralId": "e-0-4e81a3decc21d3d2726ea8fe-0"
+            },
+            {
+              "reasons": {
+                "count": 0,
+                "items": [
+                  {
+                    "summary": "This spot is popular",
+                    "type": "general",
+                    "reasonName": "globalInteractionReason"
+                  }
+                ]
+              },
+              "venue": {
+                "id": "514c88bde4b066f6ca030038",
+                "name": "Subway",
+                "location": {
+                  "address": "Av. Doutor João Batista Soares de Queiroz Júnior, 2411",
+                  "crossStreet": "Estrada Velha RJ/SP",
+                  "lat": -23.24215040952974,
+                  "lng": -45.90595902152501,
+                  "labeledLatLngs": [
+                    {
+                      "label": "display",
+                      "lat": -23.24215040952974,
+                      "lng": -45.90595902152501
+                    }
+                  ],
+                  "distance": 664,
+                  "postalCode": "12235-680",
+                  "cc": "BR",
+                  "city": "São José dos Campos",
+                  "state": "SP",
+                  "country": "Brasil",
+                  "formattedAddress": [
+                    "Av. Doutor João Batista Soares de Queiroz Júnior, 2411 (Estrada Velha RJ/SP)",
+                    "São José dos Campos, SP",
+                    "12235-680",
+                    "Brasil"
+                  ]
+                },
+                "categories": [
+                  {
+                    "id": "4bf58dd8d48988d1c5941735",
+                    "name": "Sandwich Place",
+                    "pluralName": "Sandwich Places",
+                    "shortName": "Sandwiches",
+                    "icon": {
+                      "prefix": "https://ss3.4sqi.net/img/categories_v2/food/deli_",
+                      "suffix": ".png"
+                    },
+                    "primary": true
+                  }
+                ],
+                "photos": {
+                  "count": 0,
+                  "groups": []
+                }
+              },
+              "referralId": "e-0-514c88bde4b066f6ca030038-1"
+            },
+            {
+              "reasons": {
+                "count": 0,
+                "items": [
+                  {
+                    "summary": "This spot is popular",
+                    "type": "general",
+                    "reasonName": "globalInteractionReason"
+                  }
+                ]
+              },
+              "venue": {
+                "id": "4e0906f37d8b2a018063bba9",
+                "name": "Padaria De Ville I",
+                "location": {
+                  "address": "R. Icatu",
+                  "crossStreet": "R. Penedo",
+                  "lat": -23.242825337669228,
+                  "lng": -45.909369396430215,
+                  "labeledLatLngs": [
+                    {
+                      "label": "display",
+                      "lat": -23.242825337669228,
+                      "lng": -45.909369396430215
+                    }
+                  ],
+                  "distance": 366,
+                  "cc": "BR",
+                  "city": "São José dos Campos",
+                  "state": "SP",
+                  "country": "Brasil",
+                  "formattedAddress": [
+                    "R. Icatu (R. Penedo)",
+                    "São José dos Campos, SP",
+                    "Brasil"
+                  ]
+                },
+                "categories": [
+                  {
+                    "id": "4bf58dd8d48988d16a941735",
+                    "name": "Bakery",
+                    "pluralName": "Bakeries",
+                    "shortName": "Bakery",
+                    "icon": {
+                      "prefix": "https://ss3.4sqi.net/img/categories_v2/food/bakery_",
+                      "suffix": ".png"
+                    },
+                    "primary": true
+                  }
+                ],
+                "photos": {
+                  "count": 0,
+                  "groups": []
+                }
+              },
+              "referralId": "e-0-4e0906f37d8b2a018063bba9-2"
+            },
+            {
+              "reasons": {
+                "count": 0,
+                "items": [
+                  {
+                    "summary": "This spot is popular",
+                    "type": "general",
+                    "reasonName": "globalInteractionReason"
+                  }
+                ]
+              },
+              "venue": {
+                "id": "4ea488ad722ec75adf31379d",
+                "name": "Praça Natal",
+                "location": {
+                  "address": "Pç.  Natal",
+                  "crossStreet": "Pq. Industrial",
+                  "lat": -23.237152953991167,
+                  "lng": -45.9096580723655,
+                  "labeledLatLngs": [
+                    {
+                      "label": "display",
+                      "lat": -23.237152953991167,
+                      "lng": -45.9096580723655
+                    }
+                  ],
+                  "distance": 502,
+                  "cc": "BR",
+                  "city": "São José dos Campos",
+                  "state": "SP",
+                  "country": "Brasil",
+                  "formattedAddress": [
+                    "Pç.  Natal (Pq. Industrial)",
+                    "São José dos Campos, SP",
+                    "Brasil"
+                  ]
+                },
+                "categories": [
+                  {
+                    "id": "4bf58dd8d48988d164941735",
+                    "name": "Plaza",
+                    "pluralName": "Plazas",
+                    "shortName": "Plaza",
+                    "icon": {
+                      "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/plaza_",
+                      "suffix": ".png"
+                    },
+                    "primary": true
+                  }
+                ],
+                "photos": {
+                  "count": 0,
+                  "groups": []
+                }
+              },
+              "referralId": "e-0-4ea488ad722ec75adf31379d-3"
+            },
+            {
+              "reasons": {
+                "count": 0,
+                "items": [
+                  {
+                    "summary": "This spot is popular",
+                    "type": "general",
+                    "reasonName": "globalInteractionReason"
+                  }
+                ]
+              },
+              "venue": {
+                "id": "4f023ee4f9abd5b392cf0416",
+                "name": "Taz Lanches e Açai",
+                "location": {
+                  "lat": -23.246892595357078,
+                  "lng": -45.911073594590206,
+                  "labeledLatLngs": [
+                    {
+                      "label": "display",
+                      "lat": -23.246892595357078,
+                      "lng": -45.911073594590206
+                    }
+                  ],
+                  "distance": 673,
+                  "cc": "BR",
+                  "city": "São José dos Campos",
+                  "state": "SP",
+                  "country": "Brasil",
+                  "formattedAddress": ["São José dos Campos, SP", "Brasil"]
+                },
+                "categories": [
+                  {
+                    "id": "5294c7523cf9994f4e043a62",
+                    "name": "Acai House",
+                    "pluralName": "Acai Houses",
+                    "shortName": "Acai",
+                    "icon": {
+                      "prefix": "https://ss3.4sqi.net/img/categories_v2/food/argentinian_",
+                      "suffix": ".png"
+                    },
+                    "primary": true
+                  }
+                ],
+                "photos": {
+                  "count": 0,
+                  "groups": []
+                }
+              },
+              "referralId": "e-0-4f023ee4f9abd5b392cf0416-4"
+            },
+            {
+              "reasons": {
+                "count": 0,
+                "items": [
+                  {
+                    "summary": "This spot is popular",
+                    "type": "general",
+                    "reasonName": "globalInteractionReason"
+                  }
+                ]
+              },
+              "venue": {
+                "id": "5333629a498e4ddc8a739bc0",
+                "name": "O Botequeiro - Bar e Petiscos",
+                "location": {
+                  "address": "Av. Bacabal",
+                  "lat": -23.248167670255203,
+                  "lng": -45.909700756136274,
+                  "labeledLatLngs": [
+                    {
+                      "label": "display",
+                      "lat": -23.248167670255203,
+                      "lng": -45.909700756136274
+                    }
+                  ],
+                  "distance": 847,
+                  "cc": "BR",
+                  "city": "São José dos Campos",
+                  "state": "SP",
+                  "country": "Brasil",
+                  "formattedAddress": [
+                    "Av. Bacabal",
+                    "São José dos Campos, SP",
+                    "Brasil"
+                  ]
+                },
+                "categories": [
+                  {
+                    "id": "4bf58dd8d48988d116941735",
+                    "name": "Bar",
+                    "pluralName": "Bars",
+                    "shortName": "Bar",
+                    "icon": {
+                      "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_",
+                      "suffix": ".png"
+                    },
+                    "primary": true
+                  }
+                ],
+                "photos": {
+                  "count": 0,
+                  "groups": []
+                }
+              },
+              "referralId": "e-0-5333629a498e4ddc8a739bc0-5"
+            },
+            {
+              "reasons": {
+                "count": 0,
+                "items": [
+                  {
+                    "summary": "This spot is popular",
+                    "type": "general",
+                    "reasonName": "globalInteractionReason"
+                  }
+                ]
+              },
+              "venue": {
+                "id": "4bf3bf00706e20a1e07ea898",
+                "name": "Padaria De Ville",
+                "location": {
+                  "address": "Av. Itabaiana, 1050",
+                  "lat": -23.248247477918287,
+                  "lng": -45.91503453107563,
+                  "labeledLatLngs": [
+                    {
+                      "label": "display",
+                      "lat": -23.248247477918287,
+                      "lng": -45.91503453107563
+                    }
+                  ],
+                  "distance": 858,
+                  "cc": "BR",
+                  "city": "São José dos Campos",
+                  "state": "SP",
+                  "country": "Brasil",
+                  "formattedAddress": [
+                    "Av. Itabaiana, 1050",
+                    "São José dos Campos, SP",
+                    "Brasil"
+                  ]
+                },
+                "categories": [
+                  {
+                    "id": "4bf58dd8d48988d16a941735",
+                    "name": "Bakery",
+                    "pluralName": "Bakeries",
+                    "shortName": "Bakery",
+                    "icon": {
+                      "prefix": "https://ss3.4sqi.net/img/categories_v2/food/bakery_",
+                      "suffix": ".png"
+                    },
+                    "primary": true
+                  }
+                ],
+                "photos": {
+                  "count": 0,
+                  "groups": []
+                }
+              },
+              "referralId": "e-0-4bf3bf00706e20a1e07ea898-6"
+            },
+            {
+              "reasons": {
+                "count": 0,
+                "items": [
+                  {
+                    "summary": "This spot is popular",
+                    "type": "general",
+                    "reasonName": "globalInteractionReason"
+                  }
+                ]
+              },
+              "venue": {
+                "id": "57ffc4eb38fa4c6bb7a2a37c",
+                "name": "Sabores do Jardim",
+                "location": {
+                  "address": "Avenida Dr. João Batista Soares de Queiroz Júnior, 2441",
+                  "lat": -23.230310389328206,
+                  "lng": -45.920650517545134,
+                  "labeledLatLngs": [
+                    {
+                      "label": "display",
+                      "lat": -23.230310389328206,
+                      "lng": -45.920650517545134
+                    }
+                  ],
+                  "distance": 1458,
+                  "postalCode": "12240-000",
+                  "cc": "BR",
+                  "city": "São José dos Campos",
+                  "state": "SP",
+                  "country": "Brasil",
+                  "formattedAddress": [
+                    "Avenida Dr. João Batista Soares de Queiroz Júnior, 2441",
+                    "São José dos Campos, SP",
+                    "12240-000",
+                    "Brasil"
+                  ]
+                },
+                "categories": [
+                  {
+                    "id": "52e81612bcbc57f1066b79f4",
+                    "name": "Buffet",
+                    "pluralName": "Buffets",
+                    "shortName": "Buffet",
+                    "icon": {
+                      "prefix": "https://ss3.4sqi.net/img/categories_v2/food/default_",
+                      "suffix": ".png"
+                    },
+                    "primary": true
+                  }
+                ],
+                "photos": {
+                  "count": 0,
+                  "groups": []
+                }
+              },
+              "referralId": "e-0-57ffc4eb38fa4c6bb7a2a37c-7"
+            },
+            {
+              "reasons": {
+                "count": 0,
+                "items": [
+                  {
+                    "summary": "This spot is popular",
+                    "type": "general",
+                    "reasonName": "globalInteractionReason"
+                  }
+                ]
+              },
+              "venue": {
+                "id": "4fd3cb56e4b00127ba04c479",
+                "name": "Bar do Digao",
+                "location": {
+                  "lat": -23.25084580212131,
+                  "lng": -45.90981404129764,
+                  "labeledLatLngs": [
+                    {
+                      "label": "display",
+                      "lat": -23.25084580212131,
+                      "lng": -45.90981404129764
+                    }
+                  ],
+                  "distance": 1131,
+                  "cc": "BR",
+                  "country": "Brasil",
+                  "formattedAddress": ["Brasil"]
+                },
+                "categories": [
+                  {
+                    "id": "50327c8591d4c4b30a586d5d",
+                    "name": "Brewery",
+                    "pluralName": "Breweries",
+                    "shortName": "Brewery",
+                    "icon": {
+                      "prefix": "https://ss3.4sqi.net/img/categories_v2/food/brewery_",
+                      "suffix": ".png"
+                    },
+                    "primary": true
+                  }
+                ],
+                "photos": {
+                  "count": 0,
+                  "groups": []
+                }
+              },
+              "referralId": "e-0-4fd3cb56e4b00127ba04c479-8"
+            },
+            {
+              "reasons": {
+                "count": 0,
+                "items": [
+                  {
+                    "summary": "This spot is popular",
+                    "type": "general",
+                    "reasonName": "globalInteractionReason"
+                  }
+                ]
+              },
+              "venue": {
+                "id": "561c26c2498ed6b448e54dd0",
+                "name": "Drogaria São Paulo",
+                "location": {
+                  "address": "Rua João Batista de Soares Queiroz Junior",
+                  "crossStreet": "Rua Das Quaresmeiras",
+                  "lat": -23.23064386648528,
+                  "lng": -45.920303512840874,
+                  "labeledLatLngs": [
+                    {
+                      "label": "display",
+                      "lat": -23.23064386648528,
+                      "lng": -45.920303512840874
+                    }
+                  ],
+                  "distance": 1408,
+                  "postalCode": "12340-000",
+                  "cc": "BR",
+                  "city": "São José dos Campos",
+                  "state": "SP",
+                  "country": "Brasil",
+                  "formattedAddress": [
+                    "Rua João Batista de Soares Queiroz Junior (Rua Das Quaresmeiras)",
+                    "São José dos Campos, SP",
+                    "12340-000",
+                    "Brasil"
+                  ]
+                },
+                "categories": [
+                  {
+                    "id": "4bf58dd8d48988d10f951735",
+                    "name": "Pharmacy",
+                    "pluralName": "Pharmacies",
+                    "shortName": "Pharmacy",
+                    "icon": {
+                      "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/pharmacy_",
+                      "suffix": ".png"
+                    },
+                    "primary": true
+                  }
+                ],
+                "photos": {
+                  "count": 0,
+                  "groups": []
+                }
+              },
+              "referralId": "e-0-561c26c2498ed6b448e54dd0-9"
+            },
+            {
+              "reasons": {
+                "count": 0,
+                "items": [
+                  {
+                    "summary": "This spot is popular",
+                    "type": "general",
+                    "reasonName": "globalInteractionReason"
+                  }
+                ]
+              },
+              "venue": {
+                "id": "562ce5b4498e40ad74f9f755",
+                "name": "Restaurante do Careca",
+                "location": {
+                  "lat": -23.234788784604074,
+                  "lng": -45.90342216844461,
+                  "labeledLatLngs": [
+                    {
+                      "label": "display",
+                      "lat": -23.234788784604074,
+                      "lng": -45.90342216844461
+                    }
+                  ],
+                  "distance": 1139,
+                  "cc": "BR",
+                  "country": "Brasil",
+                  "formattedAddress": ["Brasil"]
+                },
+                "categories": [
+                  {
+                    "id": "4bf58dd8d48988d1c4941735",
+                    "name": "Restaurant",
+                    "pluralName": "Restaurants",
+                    "shortName": "Restaurant",
+                    "icon": {
+                      "prefix": "https://ss3.4sqi.net/img/categories_v2/food/default_",
+                      "suffix": ".png"
+                    },
+                    "primary": true
+                  }
+                ],
+                "photos": {
+                  "count": 0,
+                  "groups": []
+                }
+              },
+              "referralId": "e-0-562ce5b4498e40ad74f9f755-10"
+            },
+            {
+              "reasons": {
+                "count": 0,
+                "items": [
+                  {
+                    "summary": "This spot is popular",
+                    "type": "general",
+                    "reasonName": "globalInteractionReason"
+                  }
+                ]
+              },
+              "venue": {
+                "id": "4e63da107d8b85408a46b233",
+                "name": "Sorvetes Kawai",
+                "location": {
+                  "address": "R. Sena Madureira",
+                  "crossStreet": "Conj. 31 de Março",
+                  "lat": -23.247568269836542,
+                  "lng": -45.91814726237579,
+                  "labeledLatLngs": [
+                    {
+                      "label": "display",
+                      "lat": -23.247568269836542,
+                      "lng": -45.91814726237579
+                    }
+                  ],
+                  "distance": 947,
+                  "postalCode": "12237-010",
+                  "cc": "BR",
+                  "city": "São José dos Campos",
+                  "state": "SP",
+                  "country": "Brasil",
+                  "formattedAddress": [
+                    "R. Sena Madureira (Conj. 31 de Março)",
+                    "São José dos Campos, SP",
+                    "12237-010",
+                    "Brasil"
+                  ]
+                },
+                "categories": [
+                  {
+                    "id": "4bf58dd8d48988d1d0941735",
+                    "name": "Dessert Shop",
+                    "pluralName": "Dessert Shops",
+                    "shortName": "Desserts",
+                    "icon": {
+                      "prefix": "https://ss3.4sqi.net/img/categories_v2/food/dessert_",
+                      "suffix": ".png"
+                    },
+                    "primary": true
+                  }
+                ],
+                "photos": {
+                  "count": 0,
+                  "groups": []
+                }
+              },
+              "referralId": "e-0-4e63da107d8b85408a46b233-11"
+            },
+            {
+              "reasons": {
+                "count": 0,
+                "items": [
+                  {
+                    "summary": "This spot is popular",
+                    "type": "general",
+                    "reasonName": "globalInteractionReason"
+                  }
+                ]
+              },
+              "venue": {
+                "id": "4c58962c04f9be9a804ded60",
+                "name": "Sam's Club",
+                "location": {
+                  "address": "Av. Cassiano Ricardo, 1993",
+                  "lat": -23.228326924340497,
+                  "lng": -45.911271920201976,
+                  "labeledLatLngs": [
+                    {
+                      "label": "display",
+                      "lat": -23.228326924340497,
+                      "lng": -45.911271920201976
+                    }
+                  ],
+                  "distance": 1409,
+                  "postalCode": "12240-540",
+                  "cc": "BR",
+                  "city": "São José dos Campos",
+                  "state": "SP",
+                  "country": "Brasil",
+                  "formattedAddress": [
+                    "Av. Cassiano Ricardo, 1993",
+                    "São José dos Campos, SP",
+                    "12240-540",
+                    "Brasil"
+                  ]
+                },
+                "categories": [
+                  {
+                    "id": "52e816a6bcbc57f1066b7a54",
+                    "name": "Warehouse Store",
+                    "pluralName": "Warehouse Stores",
+                    "shortName": "Warehouse Store",
+                    "icon": {
+                      "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/default_",
+                      "suffix": ".png"
+                    },
+                    "primary": true
+                  }
+                ],
+                "photos": {
+                  "count": 0,
+                  "groups": []
+                }
+              },
+              "referralId": "e-0-4c58962c04f9be9a804ded60-12"
+            },
+            {
+              "reasons": {
+                "count": 0,
+                "items": [
+                  {
+                    "summary": "This spot is popular",
+                    "type": "general",
+                    "reasonName": "globalInteractionReason"
+                  }
+                ]
+              },
+              "venue": {
+                "id": "4e4a638bd4c0dae7bfcac1c3",
+                "name": "Academia Winner",
+                "location": {
+                  "address": "R. Rosario, 650",
+                  "lat": -23.234341805815703,
+                  "lng": -45.90080785684547,
+                  "labeledLatLngs": [
+                    {
+                      "label": "display",
+                      "lat": -23.234341805815703,
+                      "lng": -45.90080785684547
+                    }
+                  ],
+                  "distance": 1388,
+                  "cc": "BR",
+                  "city": "São José dos Campos",
+                  "state": "SP",
+                  "country": "Brasil",
+                  "formattedAddress": [
+                    "R. Rosario, 650",
+                    "São José dos Campos, SP",
+                    "Brasil"
+                  ]
+                },
+                "categories": [
+                  {
+                    "id": "4bf58dd8d48988d176941735",
+                    "name": "Gym",
+                    "pluralName": "Gyms",
+                    "shortName": "Gym",
+                    "icon": {
+                      "prefix": "https://ss3.4sqi.net/img/categories_v2/building/gym_",
+                      "suffix": ".png"
+                    },
+                    "primary": true
+                  }
+                ],
+                "photos": {
+                  "count": 0,
+                  "groups": []
+                }
+              },
+              "referralId": "e-0-4e4a638bd4c0dae7bfcac1c3-13"
+            },
+            {
+              "reasons": {
+                "count": 0,
+                "items": [
+                  {
+                    "summary": "This spot is popular",
+                    "type": "general",
+                    "reasonName": "globalInteractionReason"
+                  }
+                ]
+              },
+              "venue": {
+                "id": "4df7f1bf2271607ac916a0c7",
+                "name": "Golaço Futebol Society",
+                "location": {
+                  "lat": -23.242539283520284,
+                  "lng": -45.904961258690456,
+                  "labeledLatLngs": [
+                    {
+                      "label": "display",
+                      "lat": -23.242539283520284,
+                      "lng": -45.904961258690456
+                    }
+                  ],
+                  "distance": 773,
+                  "postalCode": "12245-310",
+                  "cc": "BR",
+                  "city": "São José dos Campos",
+                  "state": "SP",
+                  "country": "Brasil",
+                  "formattedAddress": [
+                    "São José dos Campos, SP",
+                    "12245-310",
+                    "Brasil"
+                  ]
+                },
+                "categories": [
+                  {
+                    "id": "4cce455aebf7b749d5e191f5",
+                    "name": "Soccer Field",
+                    "pluralName": "Soccer Fields",
+                    "shortName": "Soccer Field",
+                    "icon": {
+                      "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/stadium_soccer_",
+                      "suffix": ".png"
+                    },
+                    "primary": true
+                  }
+                ],
+                "photos": {
+                  "count": 0,
+                  "groups": []
+                }
+              },
+              "referralId": "e-0-4df7f1bf2271607ac916a0c7-14"
+            },
+            {
+              "reasons": {
+                "count": 0,
+                "items": [
+                  {
+                    "summary": "This spot is popular",
+                    "type": "general",
+                    "reasonName": "globalInteractionReason"
+                  }
+                ]
+              },
+              "venue": {
+                "id": "4cba5bd69552b60c93cfd98b",
+                "name": "Impéria Chopperia",
+                "location": {
+                  "address": "Av. Dr. João Batista de Souza Soares, 2411",
+                  "lat": -23.242493943291077,
+                  "lng": -45.905845154499474,
+                  "labeledLatLngs": [
+                    {
+                      "label": "display",
+                      "lat": -23.242493943291077,
+                      "lng": -45.905845154499474
+                    }
+                  ],
+                  "distance": 684,
+                  "cc": "BR",
+                  "city": "São José dos Campos",
+                  "state": "SP",
+                  "country": "Brasil",
+                  "formattedAddress": [
+                    "Av. Dr. João Batista de Souza Soares, 2411",
+                    "São José dos Campos, SP",
+                    "Brasil"
+                  ]
+                },
+                "categories": [
+                  {
+                    "id": "4bf58dd8d48988d16b941735",
+                    "name": "Brazilian Restaurant",
+                    "pluralName": "Brazilian Restaurants",
+                    "shortName": "Brazilian",
+                    "icon": {
+                      "prefix": "https://ss3.4sqi.net/img/categories_v2/food/argentinian_",
+                      "suffix": ".png"
+                    },
+                    "primary": true
+                  }
+                ],
+                "photos": {
+                  "count": 0,
+                  "groups": []
+                }
+              },
+              "referralId": "e-0-4cba5bd69552b60c93cfd98b-15"
+            },
+            {
+              "reasons": {
+                "count": 0,
+                "items": [
+                  {
+                    "summary": "This spot is popular",
+                    "type": "general",
+                    "reasonName": "globalInteractionReason"
+                  }
+                ]
+              },
+              "venue": {
+                "id": "55c6312f498e07f0bf770b22",
+                "name": "Cervejaria Three Lions",
+                "location": {
+                  "address": "Rua Moxotó, 46",
+                  "crossStreet": "Rua Miracema",
+                  "lat": -23.250864412860277,
+                  "lng": -45.923633136575944,
+                  "labeledLatLngs": [
+                    {
+                      "label": "display",
+                      "lat": -23.250864412860277,
+                      "lng": -45.923633136575944
+                    }
+                  ],
+                  "distance": 1599,
+                  "postalCode": "12238-320",
+                  "cc": "BR",
+                  "neighborhood": "Chácaras Reunidas",
+                  "city": "São José dos Campos",
+                  "state": "SP",
+                  "country": "Brasil",
+                  "formattedAddress": [
+                    "Rua Moxotó, 46 (Rua Miracema)",
+                    "São José dos Campos, SP",
+                    "12238-320",
+                    "Brasil"
+                  ]
+                },
+                "categories": [
+                  {
+                    "id": "50327c8591d4c4b30a586d5d",
+                    "name": "Brewery",
+                    "pluralName": "Breweries",
+                    "shortName": "Brewery",
+                    "icon": {
+                      "prefix": "https://ss3.4sqi.net/img/categories_v2/food/brewery_",
+                      "suffix": ".png"
+                    },
+                    "primary": true
+                  }
+                ],
+                "photos": {
+                  "count": 0,
+                  "groups": []
+                }
+              },
+              "referralId": "e-0-55c6312f498e07f0bf770b22-16"
+            },
+            {
+              "reasons": {
+                "count": 0,
+                "items": [
+                  {
+                    "summary": "This spot is popular",
+                    "type": "general",
+                    "reasonName": "globalInteractionReason"
+                  }
+                ]
+              },
+              "venue": {
+                "id": "5095a9aae4b0f717032c9331",
+                "name": "Oriental Delivery",
+                "location": {
+                  "address": "Rua Valença, 510",
+                  "lat": -23.236534590112523,
+                  "lng": -45.90998305709616,
+                  "labeledLatLngs": [
+                    {
+                      "label": "display",
+                      "lat": -23.236534590112523,
+                      "lng": -45.90998305709616
+                    }
+                  ],
+                  "distance": 546,
+                  "cc": "BR",
+                  "country": "Brasil",
+                  "formattedAddress": ["Rua Valença, 510", "Brasil"]
+                },
+                "categories": [
+                  {
+                    "id": "4bf58dd8d48988d1d2941735",
+                    "name": "Sushi Restaurant",
+                    "pluralName": "Sushi Restaurants",
+                    "shortName": "Sushi",
+                    "icon": {
+                      "prefix": "https://ss3.4sqi.net/img/categories_v2/food/sushi_",
+                      "suffix": ".png"
+                    },
+                    "primary": true
+                  }
+                ],
+                "photos": {
+                  "count": 0,
+                  "groups": []
+                }
+              },
+              "referralId": "e-0-5095a9aae4b0f717032c9331-17"
+            },
+            {
+              "reasons": {
+                "count": 0,
+                "items": [
+                  {
+                    "summary": "This spot is popular",
+                    "type": "general",
+                    "reasonName": "globalInteractionReason"
+                  }
+                ]
+              },
+              "venue": {
+                "id": "54261d16498ec1f340a1e9a4",
+                "name": "Calçada Brasileira",
+                "location": {
+                  "address": "Avenida Bacabal",
+                  "lat": -23.242198334874637,
+                  "lng": -45.905486389045684,
+                  "labeledLatLngs": [
+                    {
+                      "label": "display",
+                      "lat": -23.242198334874637,
+                      "lng": -45.905486389045684
+                    }
+                  ],
+                  "distance": 712,
+                  "postalCode": "12235-200",
+                  "cc": "BR",
+                  "city": "São José dos Campos",
+                  "state": "SP",
+                  "country": "Brasil",
+                  "formattedAddress": [
+                    "Avenida Bacabal",
+                    "São José dos Campos, SP",
+                    "12235-200",
+                    "Brasil"
+                  ]
+                },
+                "categories": [
+                  {
+                    "id": "52939a643cf9994f4e043a33",
+                    "name": "Churrascaria",
+                    "pluralName": "Churrascarias",
+                    "shortName": "Churrascaria",
+                    "icon": {
+                      "prefix": "https://ss3.4sqi.net/img/categories_v2/food/argentinian_",
+                      "suffix": ".png"
+                    },
+                    "primary": true
+                  }
+                ],
+                "photos": {
+                  "count": 0,
+                  "groups": []
+                }
+              },
+              "referralId": "e-0-54261d16498ec1f340a1e9a4-18"
+            },
+            {
+              "reasons": {
+                "count": 0,
+                "items": [
+                  {
+                    "summary": "This spot is popular",
+                    "type": "general",
+                    "reasonName": "globalInteractionReason"
+                  }
+                ]
+              },
+              "venue": {
+                "id": "4c3c7b29b36ac928e61d0486",
+                "name": "Flor de Ypê",
+                "location": {
+                  "address": "R. Madagascar, 181",
+                  "lat": -23.236792363557587,
+                  "lng": -45.90375907357708,
+                  "labeledLatLngs": [
+                    {
+                      "label": "display",
+                      "lat": -23.236792363557587,
+                      "lng": -45.90375907357708
+                    }
+                  ],
+                  "distance": 990,
+                  "postalCode": "12235-450",
+                  "cc": "BR",
+                  "city": "São José dos Campos",
+                  "state": "SP",
+                  "country": "Brasil",
+                  "formattedAddress": [
+                    "R. Madagascar, 181",
+                    "São José dos Campos, SP",
+                    "12235-450",
+                    "Brasil"
+                  ]
+                },
+                "categories": [
+                  {
+                    "id": "4bf58dd8d48988d16a941735",
+                    "name": "Bakery",
+                    "pluralName": "Bakeries",
+                    "shortName": "Bakery",
+                    "icon": {
+                      "prefix": "https://ss3.4sqi.net/img/categories_v2/food/bakery_",
+                      "suffix": ".png"
+                    },
+                    "primary": true
+                  }
+                ],
+                "photos": {
+                  "count": 0,
+                  "groups": []
+                }
+              },
+              "referralId": "e-0-4c3c7b29b36ac928e61d0486-19"
+            },
+            {
+              "reasons": {
+                "count": 0,
+                "items": [
+                  {
+                    "summary": "This spot is popular",
+                    "type": "general",
+                    "reasonName": "globalInteractionReason"
+                  }
+                ]
+              },
+              "venue": {
+                "id": "4bb4c9828786ef3b81a86533",
+                "name": "Hard Kick - Kick Boxing",
+                "location": {
+                  "address": "Rua palmares, 816",
+                  "lat": -23.235251324730857,
+                  "lng": -45.90588202559612,
+                  "labeledLatLngs": [
+                    {
+                      "label": "display",
+                      "lat": -23.235251324730857,
+                      "lng": -45.90588202559612
+                    }
+                  ],
+                  "distance": 914,
+                  "cc": "BR",
+                  "city": "São José dos Campos",
+                  "state": "SP",
+                  "country": "Brasil",
+                  "formattedAddress": [
+                    "Rua palmares, 816",
+                    "São José dos Campos, SP",
+                    "Brasil"
+                  ]
+                },
+                "categories": [
+                  {
+                    "id": "4bf58dd8d48988d101941735",
+                    "name": "Martial Arts Dojo",
+                    "pluralName": "Martial Arts Dojos",
+                    "shortName": "Martial Arts",
+                    "icon": {
+                      "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/gym_martialarts_",
+                      "suffix": ".png"
+                    },
+                    "primary": true
+                  }
+                ],
+                "photos": {
+                  "count": 0,
+                  "groups": []
+                }
+              },
+              "referralId": "e-0-4bb4c9828786ef3b81a86533-20"
+            },
+            {
+              "reasons": {
+                "count": 0,
+                "items": [
+                  {
+                    "summary": "This spot is popular",
+                    "type": "general",
+                    "reasonName": "globalInteractionReason"
+                  }
+                ]
+              },
+              "venue": {
+                "id": "4fb7b612e4b0516e8746b6fd",
+                "name": "Y2",
+                "location": {
+                  "address": "Av. Guadalupe, 498 - Jardim América",
+                  "lat": -23.231739568454522,
+                  "lng": -45.89913941233037,
+                  "labeledLatLngs": [
+                    {
+                      "label": "display",
+                      "lat": -23.231739568454522,
+                      "lng": -45.89913941233037
+                    }
+                  ],
+                  "distance": 1693,
+                  "postalCode": "12235-000",
+                  "cc": "BR",
+                  "neighborhood": "Jardim América",
+                  "city": "São José dos Campos",
+                  "state": "SP",
+                  "country": "Brasil",
+                  "formattedAddress": [
+                    "Av. Guadalupe, 498 - Jardim América",
+                    "São José dos Campos, SP",
+                    "12235-000",
+                    "Brasil"
+                  ]
+                },
+                "categories": [
+                  {
+                    "id": "4bf58dd8d48988d176941735",
+                    "name": "Gym",
+                    "pluralName": "Gyms",
+                    "shortName": "Gym",
+                    "icon": {
+                      "prefix": "https://ss3.4sqi.net/img/categories_v2/building/gym_",
+                      "suffix": ".png"
+                    },
+                    "primary": true
+                  }
+                ],
+                "photos": {
+                  "count": 0,
+                  "groups": []
+                }
+              },
+              "referralId": "e-0-4fb7b612e4b0516e8746b6fd-21"
+            },
+            {
+              "reasons": {
+                "count": 0,
+                "items": [
+                  {
+                    "summary": "This spot is popular",
+                    "type": "general",
+                    "reasonName": "globalInteractionReason"
+                  }
+                ]
+              },
+              "venue": {
+                "id": "593c821c0a464d2a57a67410",
+                "name": "Marujo Beach Bar",
+                "location": {
+                  "lat": -23.226576,
+                  "lng": -45.916233,
+                  "labeledLatLngs": [
+                    {
+                      "label": "display",
+                      "lat": -23.226576,
+                      "lng": -45.916233
+                    }
+                  ],
+                  "distance": 1649,
+                  "postalCode": "12240-000",
+                  "cc": "BR",
+                  "city": "Sao Jose dos Campos",
+                  "state": "State of São Paulo",
+                  "country": "Brasil",
+                  "formattedAddress": [
+                    "Sao Jose dos Campos, State of São Paulo",
+                    "12240-000",
+                    "Brasil"
+                  ]
+                },
+                "categories": [
+                  {
+                    "id": "52e81612bcbc57f1066b7a0d",
+                    "name": "Beach Bar",
+                    "pluralName": "Beach Bars",
+                    "shortName": "Beach Bar",
+                    "icon": {
+                      "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/default_",
+                      "suffix": ".png"
+                    },
+                    "primary": true
+                  }
+                ],
+                "photos": {
+                  "count": 0,
+                  "groups": []
+                }
+              },
+              "referralId": "e-0-593c821c0a464d2a57a67410-22"
+            },
+            {
+              "reasons": {
+                "count": 0,
+                "items": [
+                  {
+                    "summary": "This spot is popular",
+                    "type": "general",
+                    "reasonName": "globalInteractionReason"
+                  }
+                ]
+              },
+              "venue": {
+                "id": "589ba2111ac0041f38714970",
+                "name": "Shibata",
+                "location": {
+                  "lat": -23.237605025726566,
+                  "lng": -45.89670779297162,
+                  "labeledLatLngs": [
+                    {
+                      "label": "display",
+                      "lat": -23.237605025726566,
+                      "lng": -45.89670779297162
+                    }
+                  ],
+                  "distance": 1639,
+                  "cc": "BR",
+                  "country": "Brasil",
+                  "formattedAddress": ["Brasil"]
+                },
+                "categories": [
+                  {
+                    "id": "52f2ab2ebcbc57f1066b8b46",
+                    "name": "Supermarket",
+                    "pluralName": "Supermarkets",
+                    "shortName": "Supermarket",
+                    "icon": {
+                      "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/food_grocery_",
+                      "suffix": ".png"
+                    },
+                    "primary": true
+                  }
+                ],
+                "photos": {
+                  "count": 0,
+                  "groups": []
+                }
+              },
+              "referralId": "e-0-589ba2111ac0041f38714970-23"
+            },
+            {
+              "reasons": {
+                "count": 0,
+                "items": [
+                  {
+                    "summary": "This spot is popular",
+                    "type": "general",
+                    "reasonName": "globalInteractionReason"
+                  }
+                ]
+              },
+              "venue": {
+                "id": "4fcbfdfbe4b067457cd20ed9",
+                "name": "Centro de Referência da Juventude",
+                "location": {
+                  "address": "Rua Aurora Pinto da Cunha, 131",
+                  "lat": -23.22862138833273,
+                  "lng": -45.899798152934835,
+                  "labeledLatLngs": [
+                    {
+                      "label": "display",
+                      "lat": -23.22862138833273,
+                      "lng": -45.899798152934835
+                    }
+                  ],
+                  "distance": 1876,
+                  "postalCode": "12235-190",
+                  "cc": "BR",
+                  "city": "São José dos Campos",
+                  "state": "SP",
+                  "country": "Brasil",
+                  "formattedAddress": [
+                    "Rua Aurora Pinto da Cunha, 131",
+                    "São José dos Campos, SP",
+                    "12235-190",
+                    "Brasil"
+                  ]
+                },
+                "categories": [
+                  {
+                    "id": "4bf58dd8d48988d1f1931735",
+                    "name": "General Entertainment",
+                    "pluralName": "General Entertainment",
+                    "shortName": "Entertainment",
+                    "icon": {
+                      "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/default_",
+                      "suffix": ".png"
+                    },
+                    "primary": true
+                  }
+                ],
+                "photos": {
+                  "count": 0,
+                  "groups": []
+                }
+              },
+              "referralId": "e-0-4fcbfdfbe4b067457cd20ed9-24"
+            },
+            {
+              "reasons": {
+                "count": 0,
+                "items": [
+                  {
+                    "summary": "This spot is popular",
+                    "type": "general",
+                    "reasonName": "globalInteractionReason"
+                  }
+                ]
+              },
+              "venue": {
+                "id": "5aad241e0d2be7349587019a",
+                "name": "Prato Food Hall",
+                "location": {
+                  "lat": -23.224454835421998,
+                  "lng": -45.90975240693868,
+                  "labeledLatLngs": [
+                    {
+                      "label": "display",
+                      "lat": -23.224454835421998,
+                      "lng": -45.90975240693868
+                    }
+                  ],
+                  "distance": 1854,
+                  "postalCode": "12246-876",
+                  "cc": "BR",
+                  "city": "São José dos Campos",
+                  "state": "SP",
+                  "country": "Brasil",
+                  "formattedAddress": [
+                    "São José dos Campos, SP",
+                    "12246-876",
+                    "Brasil"
+                  ]
+                },
+                "categories": [
+                  {
+                    "id": "4bf58dd8d48988d120951735",
+                    "name": "Food Court",
+                    "pluralName": "Food Courts",
+                    "shortName": "Food Court",
+                    "icon": {
+                      "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/food_foodcourt_",
+                      "suffix": ".png"
+                    },
+                    "primary": true
+                  }
+                ],
+                "photos": {
+                  "count": 0,
+                  "groups": []
+                }
+              },
+              "referralId": "e-0-5aad241e0d2be7349587019a-25"
+            },
+            {
+              "reasons": {
+                "count": 0,
+                "items": [
+                  {
+                    "summary": "This spot is popular",
+                    "type": "general",
+                    "reasonName": "globalInteractionReason"
+                  }
+                ]
+              },
+              "venue": {
+                "id": "5d62f792bde37a00081d5eac",
+                "name": "Cinépolis Jardim Oriente",
+                "location": {
+                  "address": "Rua Andorra, 500, Loja H, Piso Térreo",
+                  "lat": -23.236713,
+                  "lng": -45.896957,
+                  "labeledLatLngs": [
+                    {
+                      "label": "display",
+                      "lat": -23.236713,
+                      "lng": -45.896957
+                    }
+                  ],
+                  "distance": 1640,
+                  "postalCode": "12235-050",
+                  "cc": "BR",
+                  "neighborhood": "Jardim América",
+                  "city": "São José dos Campos",
+                  "state": "SP",
+                  "country": "Brasil",
+                  "formattedAddress": [
+                    "Rua Andorra, 500, Loja H, Piso Térreo",
+                    "São José dos Campos, SP",
+                    "12235-050",
+                    "Brasil"
+                  ]
+                },
+                "categories": [
+                  {
+                    "id": "4bf58dd8d48988d17f941735",
+                    "name": "Movie Theater",
+                    "pluralName": "Movie Theaters",
+                    "shortName": "Movie Theater",
+                    "icon": {
+                      "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/movietheater_",
+                      "suffix": ".png"
+                    },
+                    "primary": true
+                  }
+                ],
+                "photos": {
+                  "count": 0,
+                  "groups": []
+                }
+              },
+              "referralId": "e-0-5d62f792bde37a00081d5eac-26"
+            },
+            {
+              "reasons": {
+                "count": 0,
+                "items": [
+                  {
+                    "summary": "This spot is popular",
+                    "type": "general",
+                    "reasonName": "globalInteractionReason"
+                  }
+                ]
+              },
+              "venue": {
+                "id": "5135163fe4b067f7967144da",
+                "name": "CrossFitVale",
+                "location": {
+                  "address": "Rua Carlos Maria Auricchio, 55",
+                  "lat": -23.224163261075244,
+                  "lng": -45.910484466423334,
+                  "labeledLatLngs": [
+                    {
+                      "label": "display",
+                      "lat": -23.224163261075244,
+                      "lng": -45.910484466423334
+                    }
+                  ],
+                  "distance": 1877,
+                  "postalCode": "12246-870",
+                  "cc": "BR",
+                  "city": "São José dos Campos",
+                  "state": "SP",
+                  "country": "Brasil",
+                  "formattedAddress": [
+                    "Rua Carlos Maria Auricchio, 55",
+                    "São José dos Campos, SP",
+                    "12246-870",
+                    "Brasil"
+                  ]
+                },
+                "categories": [
+                  {
+                    "id": "4bf58dd8d48988d176941735",
+                    "name": "Gym",
+                    "pluralName": "Gyms",
+                    "shortName": "Gym",
+                    "icon": {
+                      "prefix": "https://ss3.4sqi.net/img/categories_v2/building/gym_",
+                      "suffix": ".png"
+                    },
+                    "primary": true
+                  }
+                ],
+                "photos": {
+                  "count": 0,
+                  "groups": []
+                }
+              },
+              "referralId": "e-0-5135163fe4b067f7967144da-27"
+            },
+            {
+              "reasons": {
+                "count": 0,
+                "items": [
+                  {
+                    "summary": "This spot is popular",
+                    "type": "general",
+                    "reasonName": "globalInteractionReason"
+                  }
+                ]
+              },
+              "venue": {
+                "id": "57e4768fcd1092856a0fdaf3",
+                "name": "Gasoline Brothers",
+                "location": {
+                  "address": "Av. Dr. João Baptista Soares de Queiroz Júnior, 718 - Jardim das Industrias",
+                  "lat": -23.22697058924162,
+                  "lng": -45.91595448294521,
+                  "labeledLatLngs": [
+                    {
+                      "label": "display",
+                      "lat": -23.22697058924162,
+                      "lng": -45.91595448294521
+                    }
+                  ],
+                  "distance": 1599,
+                  "cc": "BR",
+                  "city": "São José dos Campos",
+                  "state": "SP",
+                  "country": "Brasil",
+                  "formattedAddress": [
+                    "Av. Dr. João Baptista Soares de Queiroz Júnior, 718 - Jardim das Industrias",
+                    "São José dos Campos, SP",
+                    "Brasil"
+                  ]
+                },
+                "categories": [
+                  {
+                    "id": "4bf58dd8d48988d116941735",
+                    "name": "Bar",
+                    "pluralName": "Bars",
+                    "shortName": "Bar",
+                    "icon": {
+                      "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_",
+                      "suffix": ".png"
+                    },
+                    "primary": true
+                  }
+                ],
+                "photos": {
+                  "count": 0,
+                  "groups": []
+                }
+              },
+              "referralId": "e-0-57e4768fcd1092856a0fdaf3-28"
+            },
+            {
+              "reasons": {
+                "count": 0,
+                "items": [
+                  {
+                    "summary": "This spot is popular",
+                    "type": "general",
+                    "reasonName": "globalInteractionReason"
+                  }
+                ]
+              },
+              "venue": {
+                "id": "4d8230496476a0935c671d53",
+                "name": "Barril Restaurante",
+                "location": {
+                  "crossStreet": "Prq. Industrial",
+                  "lat": -23.229067938700414,
+                  "lng": -45.90221804456784,
+                  "labeledLatLngs": [
+                    {
+                      "label": "display",
+                      "lat": -23.229067938700414,
+                      "lng": -45.90221804456784
+                    }
+                  ],
+                  "distance": 1678,
+                  "postalCode": "12235-620",
+                  "cc": "BR",
+                  "neighborhood": "Pq. Industrial",
+                  "city": "São José dos Campos",
+                  "state": "SP",
+                  "country": "Brasil",
+                  "formattedAddress": [
+                    "Prq. Industrial",
+                    "São José dos Campos, SP",
+                    "12235-620",
+                    "Brasil"
+                  ]
+                },
+                "categories": [
+                  {
+                    "id": "4bf58dd8d48988d16b941735",
+                    "name": "Brazilian Restaurant",
+                    "pluralName": "Brazilian Restaurants",
+                    "shortName": "Brazilian",
+                    "icon": {
+                      "prefix": "https://ss3.4sqi.net/img/categories_v2/food/argentinian_",
+                      "suffix": ".png"
+                    },
+                    "primary": true
+                  }
+                ],
+                "photos": {
+                  "count": 0,
+                  "groups": []
+                }
+              },
+              "referralId": "e-0-4d8230496476a0935c671d53-29"
+            }
+          ]
+        }
+      ]
+    }
   }
 }

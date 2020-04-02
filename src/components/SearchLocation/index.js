@@ -1,16 +1,17 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
+import { useToasts } from 'react-toast-notifications';
 import { get } from 'lodash';
 import { MapService } from '../../services/MapService';
 import { Loader } from '../Loader';
 import { SearchBox } from './styles';
+import { PositionContext } from '../../shared/PositionContext';
 
 function SearchLocation({ className }) {
   const [showSuggestion, setShowSuggestion] = useState(false);
   const [isSearching, setIsSearching] = useState(false);
-  const [position, setPosition] = useState({
-    coords: {},
-  });
+  const [position, setPosition] = useContext(PositionContext);
   const [currentLocation, setCurrentLocation] = useState('');
+  const { addToast } = useToasts();
 
   useEffect(() => {
     const getLocationAsString = () => {
@@ -31,6 +32,11 @@ function SearchLocation({ className }) {
     setCurrentLocation(location);
   }, [position]);
 
+  const onSearchClick = () => {
+    setCurrentLocation('');
+    setShowSuggestion(true);
+  };
+
   const getCurrentPosition = () => {
     const geoOptions = {
       timeout: 10 * 1000,
@@ -46,16 +52,19 @@ function SearchLocation({ className }) {
         geoOptions
       );
     }
+
+    setShowSuggestion(false);
   };
 
   const geoSuccess = async userPosition => {
     const newPosition = await MapService.getCurrentLocation(userPosition);
-    setPosition({ ...newPosition });
+    setPosition(newPosition);
     setIsSearching(false);
   };
 
   const geoError = function(error) {
     console.log('Error occurred. Error code: ' + error.code);
+    addToast('Network error when searching', { appearance: 'error' });
     setIsSearching(false);
   };
 
@@ -66,8 +75,10 @@ function SearchLocation({ className }) {
         type="text"
         className="search-field"
         placeholder="Inform a location"
-        onClick={() => setShowSuggestion(true)}
+        onClick={() => onSearchClick()}
+        onBlur={() => setShowSuggestion(false)}
         value={currentLocation}
+        onChange={() => {}}
       />
       {showSuggestion && (
         <div className="suggestions">
@@ -78,7 +89,7 @@ function SearchLocation({ className }) {
                   href="/#"
                   alt="location"
                   className="permission-btn"
-                  onClick={() => getCurrentPosition()}
+                  onMouseDown={getCurrentPosition}
                 >
                   <span className="locationIcon">
                     <svg width="14" height="14" viewBox="0 0 14 14" fill="none">

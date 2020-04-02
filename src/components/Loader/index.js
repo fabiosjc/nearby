@@ -30,8 +30,8 @@ export const Loader = ({ isLoading }) => {
   return (
     <Fragment>
       {isLoading && (
-        <LoaderWrapper class="loader-wrapper">
-          <div class="loader"></div>
+        <LoaderWrapper className="loader-wrapper">
+          <div className="loader"></div>
         </LoaderWrapper>
       )}
     </Fragment>

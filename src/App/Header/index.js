@@ -8,9 +8,10 @@ export const Header = () => {
   return (
     <HeaderBox>
       <nav id="nav-header">
-        <h2 className="items">
-          Nearby <FontAwesomeIcon icon={faLocationArrow} />
-        </h2>
+        <h1 className="items ">
+          <span className="logo">Nearby</span>
+          <FontAwesomeIcon icon={faLocationArrow} />
+        </h1>
         <SearchLocation className="search" />
       </nav>
     </HeaderBox>

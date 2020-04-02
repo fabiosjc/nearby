@@ -1,14 +1,22 @@
 import React, { Fragment } from 'react';
-import { Map } from '../Map';
+import { ToastProvider } from 'react-toast-notifications';
+import { MapViewer } from '../MapViewer';
 import { Header } from '../../App/Header';
+import { PositionProvider } from '../../shared/PositionContext';
+import { Venues } from '../Venues';
 
 export const Home = () => {
   return (
     <Fragment>
-      <Header />
-      <main>
-        <Map />
-      </main>
+      <PositionProvider>
+        <ToastProvider>
+          <Header />
+          <main>
+            <MapViewer />
+            <Venues />
+          </main>
+        </ToastProvider>
+      </PositionProvider>
     </Fragment>
   );
 };

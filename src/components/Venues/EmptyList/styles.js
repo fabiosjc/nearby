@@ -1,0 +1,20 @@
+import styled from 'styled-components';
+
+export const EmptyListContainer = styled.div`
+  text-align: center;
+
+  .logo-icon {
+    font-size: 48px;
+    color: ${props => props.theme.background.default};
+    margin-bottom: 0.7rem;
+  }
+
+  .text {
+    font-size: 1.5rem;
+    color: #9e9e9e;
+    font-family: 'Helvetica Neue', sans-serif;
+    letter-spacing: -1px;
+    line-height: 1;
+    text-align: center;
+  }
+`;
