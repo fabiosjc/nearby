@@ -81,7 +81,7 @@ export const Venues = () => {
                     alt=""
                     className="category-img"
                   />
-                  {category.name}
+                  {category.pluralName}
                 </div>
                 {venues.map(item => {
                   return (
