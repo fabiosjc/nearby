@@ -22,7 +22,6 @@ const LoadingContainer = styled.div`
   background: ${props => (props.isLoading ? '#eee' : 'transparent')};
   z-index: ${props => (props.isLoading ? 1 : -1)};
   height: 52vh;
-  z-index: 100;
   top: 48vh;
 `;
 
