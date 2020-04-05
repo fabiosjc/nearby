@@ -5,12 +5,29 @@ import {
   FOURSQUARE_CLIENT_SECRET,
   FOURSQUARE_API_VERSION,
 } from '../constants/hosts';
+import { isEmpty } from 'lodash';
 
 const VenuesService = {
-  fetchVenues: async (latitude, longitude) => {
-    return await axios.get(
-      `${FOURSQUARE_PLACES_API}/explore?client_id=${FOURSQUARE_CLIENT_ID}&client_secret=${FOURSQUARE_CLIENT_SECRET}&v=${FOURSQUARE_API_VERSION}&ll=${latitude},${longitude}`
-    );
+  fetchVenues: async ({
+    latitude,
+    longitude,
+    query,
+    radius,
+    location,
+    isUsingLatLon,
+    venueType,
+  }) => {
+    if (!latitude && !longitude && isEmpty(location)) {
+      return;
+    }
+
+    const geoparam =
+      isUsingLatLon || isEmpty(location)
+        ? `ll=${latitude},${longitude}`
+        : `near=${location}`;
+
+    const VENUE_API = `${FOURSQUARE_PLACES_API}/explore?client_id=${FOURSQUARE_CLIENT_ID}&client_secret=${FOURSQUARE_CLIENT_SECRET}&v=${FOURSQUARE_API_VERSION}&query=${query}&radius=${radius}&section=${venueType}&${geoparam}`;
+    return await axios.get(VENUE_API);
   },
 };
 

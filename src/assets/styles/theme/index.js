@@ -6,6 +6,7 @@ export const theme = {
   },
   color: {
     default: '#fff',
+    secondary: 'rgba(237, 235, 242, 0.862)',
   },
   lightGray: 'rgb(237, 237, 237)',
   midGray: 'rgb(153, 153, 153)',

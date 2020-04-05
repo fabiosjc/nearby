@@ -1,11 +1,67 @@
 import styled from 'styled-components';
 
 const SearchBox = styled.div`
-  position: relative;
-  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  align-content: center;
   width: 100%;
-  background: #f7f7f7;
-  border-radius: 5px 5px 5px 5px;
+
+  label {
+    display: none;
+  }
+
+  input#query {
+    height: 50px;
+    background: purple;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    width: 15rem;
+    font-size: 16px;
+    padding: 0 10px;
+
+    ::placeholder {
+      color: #ffffff61;
+      opacity: 1; /* Firefox */
+    }
+
+    :-ms-input-placeholder {
+      /* Internet Explorer 10-11 */
+      color: #ffffff61;
+    }
+
+    ::-ms-input-placeholder {
+      /* Microsoft Edge */
+      color: #ffffff61;
+    }
+  }
+
+  @media (max-width: 700px) {
+    input#query {
+      width: 8rem;
+      padding-left: 2px;
+    }
+  }
+
+  button.search-btn {
+    height: 48px;
+    width: 48px;
+    color: #e7e7e7;
+    border-radius: 50%;
+    font-size: 18px;
+    border: none;
+    background: inherit;
+  }
+
+  button.search-btn:hover {
+    color: #fff;
+  }
+`;
+
+const InputBox = styled.div`
+  position: relative;
+  width: 100%;
+  margin-right: 0.5rem;
 
   .search-field {
     display: flex;
@@ -87,4 +143,4 @@ const SearchBox = styled.div`
   }
 `;
 
-export { SearchBox };
+export { SearchBox, InputBox };

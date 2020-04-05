@@ -10,8 +10,6 @@ import { MapBox } from './styles';
 import { PositionContext } from '../../shared/PositionContext';
 import { get } from 'lodash';
 
-const AMSTERDAM_COORD = { lat: 52.370216, lon: 4.895168 };
-
 export const MapViewer = () => {
   const [position, setPosition] = useContext(PositionContext);
   const [latitude, setLatitude] = useState();
@@ -19,8 +17,8 @@ export const MapViewer = () => {
   const markerRef = createRef();
 
   useEffect(() => {
-    const lat = get(position, 'lat', AMSTERDAM_COORD.lat);
-    const lon = get(position, 'lon', AMSTERDAM_COORD.lon);
+    const lat = get(position, 'latitude');
+    const lon = get(position, 'longitude');
     setLatitude(lat);
     setLongitude(lon);
   }, [position]);
@@ -30,7 +28,14 @@ export const MapViewer = () => {
 
     if (marker) {
       const { lat, lng } = marker.leafletElement.getLatLng();
-      setPosition({ lat: lat, lon: lng });
+      //marker should use latitude and longitude instead of location name
+      setPosition({
+        ...position,
+        latitude: lat,
+        longitude: lng,
+        location: '',
+        isUsingLatLon: true,
+      });
     }
   };
 
@@ -39,7 +44,7 @@ export const MapViewer = () => {
       {latitude && longitude && (
         <MapBox className="map">
           <Map
-            center={[latitude, longitude]}
+            center={[position.latitude, position.longitude]}
             zoom={12}
             attributionControl={true}
             zoomControl={true}
@@ -50,20 +55,22 @@ export const MapViewer = () => {
             easeLinearity={0.35}
           >
             <TileLayer url="http://{s}.tile.osm.org/{z}/{x}/{y}.png" />
-            {latitude && longitude && (
-              <Marker
-                position={[latitude, longitude]}
-                draggable={true}
-                onDragend={updatePosition}
-                ref={markerRef}
-              >
-                <Popup>
-                  <div>
-                    <strong>{`[${latitude}, ${longitude}]`}</strong>
-                  </div>
-                  <div>{`Drag to change the location`}</div>
-                </Popup>
-              </Marker>
+            {position.latitude && position.longitude && (
+              <div>
+                <Marker
+                  position={[position.latitude, position.longitude]}
+                  draggable={true}
+                  onDragend={updatePosition}
+                  ref={markerRef}
+                >
+                  <Popup>
+                    <div>
+                      <strong>{`[${position.latitude}, ${position.longitude}]`}</strong>
+                    </div>
+                    <div>{`Drag to change the location`}</div>
+                  </Popup>
+                </Marker>
+              </div>
             )}
           </Map>
           <p className="drag-message">Drag the marker to change the location</p>

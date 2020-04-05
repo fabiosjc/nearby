@@ -9,7 +9,7 @@ export const Home = () => {
   return (
     <Fragment>
       <PositionProvider>
-        <ToastProvider>
+        <ToastProvider autoDismiss autoDismissTimeout={5000}>
           <Header />
           <main>
             <MapViewer />

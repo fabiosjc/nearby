@@ -8,14 +8,17 @@ import {
 import { VenuesService } from '../../services/VenuesService';
 import GridLoader from 'react-spinners/GridLoader';
 import { PositionContext } from '../../shared/PositionContext';
-import { get } from 'lodash';
 import { EmptyList } from './EmptyList';
 import { DataParser } from './parser';
+import { get } from 'lodash';
+import { useToasts } from 'react-toast-notifications';
 
 export const Venues = () => {
   const [categories, setCategories] = useState(new Map());
   const [isLoading, setIsLoading] = useState(false);
-  const [position] = useContext(PositionContext);
+  const [position, setPosition] = useContext(PositionContext);
+  const [isSearchOnInit, setIsSearchOnInit] = useState(false);
+  const { addToast } = useToasts();
 
   useEffect(() => {
     fetchVenues();
@@ -23,16 +26,34 @@ export const Venues = () => {
   }, [position]);
 
   const fetchVenues = async () => {
-    const lat = get(position, 'lat');
-    const lon = get(position, 'lon');
-    if (!lat || !lon) {
+    // Avoid initial search (Just to show the EmptyList)
+    if (!isSearchOnInit) {
+      setIsSearchOnInit(true);
       return;
     }
 
     setIsLoading(true);
-    const result = await VenuesService.fetchVenues(lat, lon);
+    const result = await VenuesService.fetchVenues(position);
+
+    if (!result) {
+      addToast('Informe a location to get a list of recommended places', {
+        appearance: 'info',
+      });
+      setIsLoading(false);
+      return;
+    }
+
     const parsedData = DataParser.getItemsByCategory(result.data);
     setCategories(parsedData);
+
+    const { lat, lng } = get(result, 'data.response.geocode.center', {});
+    const isPositionChanged =
+      lat && lng && lat !== position.latitude && lng !== position.longitude;
+
+    if (position.location && isPositionChanged) {
+      setPosition({ ...position, latitude: lat, longitude: lng });
+    }
+
     setIsLoading(false);
   };
 
@@ -73,10 +94,9 @@ export const Venues = () => {
             const [categoryId, venues] = entryMap;
 
             return (
-              <Fragment>
+              <Fragment key={categoryId}>
                 <div className="category">
                   <img
-                    key={categoryId}
                     src={`${image}64${category.icon.suffix}`}
                     alt=""
                     className="category-img"
