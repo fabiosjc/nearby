@@ -2,6 +2,9 @@
 
 html {
   box-sizing: border-box;
+  min-width: 375px;
+  width: auto !important;
+  width: 375px;
 }
 
 em {

@@ -40,6 +40,11 @@ const SearchBox = styled.div`
     input#query {
       width: 8rem;
       padding-left: 2px;
+      display: none;
+    }
+
+    .search-btn {
+      display: none;
     }
   }
 

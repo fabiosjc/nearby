@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const PARAMS_DEFAULT = {
+export const PARAMS_DEFAULT = {
   query: '',
   radius: 2217,
   location: '',

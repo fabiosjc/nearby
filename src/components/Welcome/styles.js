@@ -1,8 +1,7 @@
 import styled from 'styled-components';
 
-export const EmptyListContainer = styled.div`
+export const WelcomeContainer = styled.div`
   text-align: center;
-  min-height: 50vh;
 
   .logo-icon {
     font-size: 48px;
@@ -11,18 +10,17 @@ export const EmptyListContainer = styled.div`
   }
 
   .text {
-    font-size: 2rem;
-    color: #333;
+    font-size: 1.5rem;
+    color: #9e9e9e;
     font-family: 'Helvetica Neue', sans-serif;
     letter-spacing: -1px;
-    line-height: 1.5;
+    line-height: 1;
     text-align: center;
-    padding: 0 1rem;
   }
 
-  small {
-    display: block;
-    font-size: 1.3rem;
-    color: gray;
+  @media (max-width: 700px) {
+    .text {
+      padding: 0 3rem;
+    }
   }
 `;

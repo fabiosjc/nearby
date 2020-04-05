@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useContext, Fragment } from 'react';
 import { useToasts } from 'react-toast-notifications';
-import { get } from 'lodash';
+import { isEmpty } from 'lodash';
 import { MapService } from '../../services/MapService';
 import { Loader } from '../Loader';
 import { SearchBox, InputBox } from './styles';
@@ -20,34 +20,16 @@ function SearchLocation({ className }) {
   const { addToast } = useToasts();
   const { params, setParams } = useFoursquare();
 
-  useEffect(() => {
-    const getLocationAsString = () => {
-      const city = get(position, 'address.city');
-
-      if (city) {
-        return `Current Location (${city})`;
-      }
-
-      const latitude = get(position, 'lat');
-      const longitude = get(position, 'lon');
-
-      return latitude && longitude ? `[${latitude} , ${longitude}]` : '';
-    };
-
-    const location = getLocationAsString();
-    setParams(location);
-  }, [position, setParams]);
-
   const onSearch = () => {
     setPosition({
       ...position,
       ...params,
-      isUsingLatLon: false,
-      location: position.isUsingLatLon ? '' : params.location,
+      isUsingLatLon: isEmpty(params.location),
     });
   };
 
   const getCurrentPosition = () => {
+    setParams({ ...params, location: '' });
     const geoOptions = {
       timeout: 10 * 1000,
     };
@@ -67,12 +49,14 @@ function SearchLocation({ className }) {
 
   const geoSuccess = async userPosition => {
     const newPosition = await MapService.getCurrentLocation(userPosition);
+
     setPosition({
       ...position,
+      ...params,
       latitude: newPosition.lat,
       longitude: newPosition.lon,
-      location: '',
       isUsingLatLon: true,
+      location: '',
     });
     setIsSearching(false);
   };
@@ -119,8 +103,15 @@ function SearchLocation({ className }) {
     setIsSearching(false);
   };
 
+  const onKeyDown = event => {
+    if (event.key === 'Enter') {
+      onSearch();
+    }
+  };
+
   return (
     <SearchBox>
+      <div>Params: {JSON.stringify(params)}</div>
       <InputBox className={className}>
         <Loader isLoading={isSearching} />
         <fieldset>
@@ -132,8 +123,13 @@ function SearchLocation({ className }) {
             onBlur={() => setShowSuggestion(false)}
             value={params.location}
             onChange={event =>
-              setParams({ ...params, location: event.target.value })
+              setParams({
+                ...params,
+                location: event.target.value,
+                isUsingLatLon: false,
+              })
             }
+            onKeyDown={onKeyDown}
           />
 
           {showSuggestion && (
@@ -172,7 +168,7 @@ function SearchLocation({ className }) {
         </fieldset>
       </InputBox>
 
-      <fieldset>
+      <fieldset className="advanced-search">
         <label htmlFor="query">Search By</label>
         <input
           id="query"
@@ -182,6 +178,7 @@ function SearchLocation({ className }) {
           onChange={event =>
             setParams({ ...params, query: event.target.value })
           }
+          onKeyDown={onKeyDown}
         />
       </fieldset>
 
