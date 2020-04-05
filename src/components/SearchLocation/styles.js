@@ -6,6 +6,20 @@ const SearchBox = styled.div`
   align-content: center;
   width: 100%;
 
+  .search {
+    position: absolute;
+    top: 8px;
+    left: 150px;
+    width: calc(100% - 30rem);
+  }
+
+  .advanced-search {
+    position: absolute;
+    top: 8px;
+    right: 0;
+    display: flex;
+  }
+
   label {
     display: none;
   }
@@ -16,9 +30,10 @@ const SearchBox = styled.div`
     border: none;
     border-bottom: 1px solid white;
     color: white;
-    width: 15rem;
+    width: 16rem;
     font-size: 16px;
-    padding: 0 10px;
+    margin: 0;
+    padding: 0.5rem;
 
     ::placeholder {
       color: #ffffff61;
@@ -36,18 +51,6 @@ const SearchBox = styled.div`
     }
   }
 
-  @media (max-width: 700px) {
-    input#query {
-      width: 8rem;
-      padding-left: 2px;
-      display: none;
-    }
-
-    .search-btn {
-      display: none;
-    }
-  }
-
   button.search-btn {
     height: 48px;
     width: 48px;
@@ -56,10 +59,67 @@ const SearchBox = styled.div`
     font-size: 18px;
     border: none;
     background: inherit;
+    margin-right: 4px;
   }
 
   button.search-btn:hover {
     color: #fff;
+  }
+
+  @media (max-width: 700px) {
+    background: ${props => props.theme.background.default};
+
+    .search {
+      width: calc(100% - 167px);
+    }
+
+    .advanced-search {
+      display: block;
+      position: initial;
+      width: 100%;
+      margin: 0;
+      padding: 1rem;
+      color: #000 !important;
+    }
+
+    input#query {
+      height: 48px;
+      border-bottom: 1px solid white;
+      color: #fff;
+      width: 100%;
+      border: 1px solid #d9d9d9;
+      font-size: 1rem;
+      border: none;
+      border-bottom: 1px solid #d9d9d9;
+
+      ::placeholder {
+        color: white;
+        opacity: 1; /* Firefox */
+      }
+
+      ::-ms-input-placeholder {
+        /* Internet Explorer 10-11 */
+        color: white;
+      }
+
+      ::-ms-input-placeholder {
+        /* Microsoft Edge */
+        color: white;
+      }
+    }
+
+    button.search-btn {
+      height: 48px;
+      font-size: 18px;
+      background: purple;
+      margin-top: 1rem;
+      height: 48px;
+      width: 100%;
+      color: #e7e7e7;
+      border-radius: 0;
+      font-size: 18px;
+      border: 1px solid white;
+    }
   }
 `;
 

@@ -40,29 +40,39 @@ export const Venues = () => {
     }
 
     setIsLoading(true);
-    const result = await VenuesService.fetchVenues(position);
+    try {
+      const result = await VenuesService.fetchVenues(position);
 
-    if (!result) {
-      addToast('Informe a location to get a list of recommended places', {
-        appearance: 'info',
-      });
+      if (!result) {
+        addToast('Informe a location to get a list of recommended places', {
+          appearance: 'info',
+        });
+        setIsLoading(false);
+        return;
+      }
+
+      const parsedData = DataParser.getItemsByCategory(result.data);
+      setCategories(parsedData);
+
+      const { lat, lng } = get(result, 'data.response.geocode.center', {});
+      const isPositionChanged =
+        lat && lng && lat !== position.latitude && lng !== position.longitude;
+
+      if (position.location && isPositionChanged) {
+        setPosition({ ...position, latitude: lat, longitude: lng });
+      }
+
+      setShowWelcome(false);
+    } catch (error) {
+      const errorMessage = get(
+        error,
+        'response.data.meta.errorDetail',
+        'Could not perform the search. Please, check the informed parameters.'
+      );
+      addToast(errorMessage, { appearance: 'error' });
+    } finally {
       setIsLoading(false);
-      return;
     }
-
-    const parsedData = DataParser.getItemsByCategory(result.data);
-    setCategories(parsedData);
-
-    const { lat, lng } = get(result, 'data.response.geocode.center', {});
-    const isPositionChanged =
-      lat && lng && lat !== position.latitude && lng !== position.longitude;
-
-    if (position.location && isPositionChanged) {
-      setPosition({ ...position, latitude: lat, longitude: lng });
-    }
-
-    setShowWelcome(false);
-    setIsLoading(false);
   };
 
   const getCategoryByKey = entryMap => {

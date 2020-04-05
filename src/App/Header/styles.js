@@ -11,6 +11,7 @@ const HeaderBox = styled.header`
     align-items: center;
     padding: 0 23px;
     height: 8vh;
+    position: relative;
   }
 
   .items {

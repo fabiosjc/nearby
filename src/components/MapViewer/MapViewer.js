@@ -41,6 +41,8 @@ export const MapViewer = () => {
 
   return (
     <Fragment>
+      {/* <pre>{JSON.stringify(position)}</pre> */}
+
       {latitude && longitude && (
         <MapBox className="map">
           <Map

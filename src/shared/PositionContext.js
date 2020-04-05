@@ -1,5 +1,5 @@
 import React, { createContext } from 'react';
-import { useFoursquare } from '../components/SearchParams/hooks';
+import { useFoursquare } from '../components/SearchLocation/hooks';
 
 const PositionContext = createContext();
 

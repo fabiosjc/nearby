@@ -4,6 +4,7 @@ import { MapViewer } from '../MapViewer';
 import { Header } from '../../App/Header';
 import { PositionProvider } from '../../shared/PositionContext';
 import { Venues } from '../Venues';
+import { SearchLocation } from '../SearchLocation';
 
 export const Home = () => {
   return (
@@ -12,6 +13,7 @@ export const Home = () => {
         <ToastProvider autoDismiss autoDismissTimeout={5000}>
           <Header />
           <main>
+            <SearchLocation className="search" />
             <MapViewer />
             <Venues />
           </main>

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext, Fragment } from 'react';
+import React, { useState, useContext } from 'react';
 import { useToasts } from 'react-toast-notifications';
 import { isEmpty } from 'lodash';
 import { MapService } from '../../services/MapService';
@@ -7,7 +7,7 @@ import { SearchBox, InputBox } from './styles';
 import { PositionContext } from '../../shared/PositionContext';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
-import { useFoursquare } from '../SearchParams/hooks';
+import { useFoursquare } from '../SearchLocation/hooks';
 
 const PERMISSION_DENIED = 1;
 const POSITION_UNAVAILABLE = 2;
@@ -21,6 +21,7 @@ function SearchLocation({ className }) {
   const { params, setParams } = useFoursquare();
 
   const onSearch = () => {
+    setShowSuggestion(false);
     setPosition({
       ...position,
       ...params,
@@ -111,7 +112,7 @@ function SearchLocation({ className }) {
 
   return (
     <SearchBox>
-      <div>Params: {JSON.stringify(params)}</div>
+      {/* <div>Params: {JSON.stringify(params)}</div> */}
       <InputBox className={className}>
         <Loader isLoading={isSearching} />
         <fieldset>
@@ -168,23 +169,25 @@ function SearchLocation({ className }) {
         </fieldset>
       </InputBox>
 
-      <fieldset className="advanced-search">
-        <label htmlFor="query">Search By</label>
-        <input
-          id="query"
-          name="query"
-          placeholder="Looking for..."
-          value={params.query}
-          onChange={event =>
-            setParams({ ...params, query: event.target.value })
-          }
-          onKeyDown={onKeyDown}
-        />
-      </fieldset>
+      <div className="advanced-search">
+        <fieldset>
+          <label htmlFor="query">Search By</label>
+          <input
+            id="query"
+            name="query"
+            placeholder="Looking for..."
+            value={params.query}
+            onChange={event =>
+              setParams({ ...params, query: event.target.value })
+            }
+            onKeyDown={onKeyDown}
+          />
+        </fieldset>
 
-      <button className="search-btn" onClick={onSearch}>
-        <FontAwesomeIcon icon={faSearch} />
-      </button>
+        <button className="search-btn" onClick={onSearch}>
+          <FontAwesomeIcon icon={faSearch} />
+        </button>
+      </div>
     </SearchBox>
   );
 }
