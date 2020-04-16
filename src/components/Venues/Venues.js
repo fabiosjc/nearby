@@ -13,6 +13,7 @@ import { DataParser } from './parser';
 import { get } from 'lodash';
 import { useToasts } from 'react-toast-notifications';
 import { Welcome } from '../Welcome';
+import { Fade, Flip } from 'react-reveal';
 
 export const Venues = () => {
   const { addToast } = useToasts();
@@ -117,22 +118,26 @@ export const Venues = () => {
 
                 return (
                   <Fragment key={categoryId}>
-                    <div className="category">
-                      <img
-                        src={`${image}64${category.icon.suffix}`}
-                        alt=""
-                        className="category-img"
-                      />
-                      {category.pluralName}
-                    </div>
+                    <Flip left cascade>
+                      <div className="category">
+                        <img
+                          src={`${image}64${category.icon.suffix}`}
+                          alt=""
+                          className="category-img"
+                        />
+                        {category.pluralName}
+                      </div>
+                    </Flip>
                     {venues.map(item => {
                       return (
-                        <ListItem key={item.venue.id}>
-                          <h3>{item.venue.name}</h3>
-                          <div className="address">
-                            {item.venue.location.formattedAddress.join(', ')}
-                          </div>
-                        </ListItem>
+                        <Fade>
+                          <ListItem key={item.venue.id}>
+                            <h3>{item.venue.name}</h3>
+                            <div className="address">
+                              {item.venue.location.formattedAddress.join(', ')}
+                            </div>
+                          </ListItem>
+                        </Fade>
                       );
                     })}
                   </Fragment>
