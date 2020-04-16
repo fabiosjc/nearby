@@ -5,7 +5,7 @@ In addition to the location it is possible to search for venues by keywords, suc
 
 You can define the location using geolocation. After inform an initial location, it is also possible to drag the map marker and change the current location.
 
-Demo: https://nearby2.netlify.app [https://nearby2.netlify.app]
+Try the [online demo](https://nearby2.netlify.app)
 
 ## Available Scripts
 
