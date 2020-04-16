@@ -116,7 +116,9 @@ function SearchLocation({ className }) {
       <InputBox className={className}>
         <Loader isLoading={isSearching} />
         <fieldset>
+          <label aria-label="Location">Search By</label>
           <input
+            id="locationField"
             type="text"
             className="search-field"
             placeholder="Inform a location"
@@ -131,6 +133,7 @@ function SearchLocation({ className }) {
               })
             }
             onKeyDown={onKeyDown}
+            aria-label="Location Field"
           />
 
           {showSuggestion && (
@@ -171,7 +174,7 @@ function SearchLocation({ className }) {
 
       <div className="advanced-search">
         <fieldset>
-          <label htmlFor="query">Search By</label>
+          <label aria-label="Search By">Search By</label>
           <input
             id="query"
             name="query"
@@ -181,10 +184,11 @@ function SearchLocation({ className }) {
               setParams({ ...params, query: event.target.value })
             }
             onKeyDown={onKeyDown}
+            aria-label="Looking for"
           />
         </fieldset>
 
-        <button className="search-btn" onClick={onSearch}>
+        <button className="search-btn" onClick={onSearch} aria-label="Search">
           <FontAwesomeIcon icon={faSearch} />
         </button>
       </div>

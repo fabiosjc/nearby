@@ -11,7 +11,7 @@ export const WelcomeContainer = styled.div`
 
   .text {
     font-size: 1.5rem;
-    color: #9e9e9e;
+    color: #2f373d;
     font-family: 'Helvetica Neue', sans-serif;
     letter-spacing: -1px;
     line-height: 1;

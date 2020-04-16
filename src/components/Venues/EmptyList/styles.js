@@ -12,7 +12,7 @@ export const EmptyListContainer = styled.div`
 
   .text {
     font-size: 2rem;
-    color: #333;
+    color: #2f373d;
     font-family: 'Helvetica Neue', sans-serif;
     letter-spacing: -1px;
     line-height: 1.5;

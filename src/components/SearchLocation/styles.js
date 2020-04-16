@@ -8,14 +8,14 @@ const SearchBox = styled.div`
 
   .search {
     position: absolute;
-    top: 8px;
+    top: 13px;
     left: 150px;
     width: calc(100% - 30rem);
   }
 
   .advanced-search {
     position: absolute;
-    top: 8px;
+    top: 13px;
     right: 0;
     display: flex;
   }
@@ -136,6 +136,13 @@ const InputBox = styled.div`
     padding-right: 42px;
     border: 1px solid #f2f2f2;
     font-size: 1rem;
+  }
+
+  @media (max-width: 700px) {
+    .search-field {
+      height: 40px;
+      border: none;
+    }
   }
 
   .suggestions {
