@@ -36,18 +36,18 @@ const SearchBox = styled.div`
     padding: 0.5rem;
 
     ::placeholder {
-      color: #ffffff61;
+      color: #ffffffa1 !important;
       opacity: 1; /* Firefox */
     }
 
     :-ms-input-placeholder {
       /* Internet Explorer 10-11 */
-      color: #ffffff61;
+      color: #ffffffa1;
     }
 
     ::-ms-input-placeholder {
       /* Microsoft Edge */
-      color: #ffffff61;
+      color: #ffffffa1;
     }
   }
 
